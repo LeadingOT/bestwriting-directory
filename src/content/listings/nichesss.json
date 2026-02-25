@@ -1,0 +1,38 @@
+{
+  "name": "Nichesss",
+  "slug": "nichesss",
+  "tagline": "AI content generation for marketers",
+  "description": "Nichesss is an AI-powered content generation tool with over 150+ tools for creating blog posts, ads, social media content, and more. Known for its quirky personality and extensive template library, it's a favorite among content marketers and entrepreneurs.",
+  "category": "Content Writing",
+  "subcategory": "Content Ideas",
+  "url": "https://nichesss.com",
+  "pricing": {
+    "model": "freemium",
+    "startingPrice": "$19/mo"
+  },
+  "features": [
+    "150+ content tools",
+    "Blog post generator",
+    "Social media captions",
+    "Video ideas",
+    "Ad copy creator",
+    "Image generator",
+    "Chrome extension",
+    "Lifetime deal available"
+  ],
+  "pros": [
+    "Huge template selection",
+    "Affordable pricing",
+    "Lifetime deal option",
+    "Fun to use"
+  ],
+  "cons": [
+    "Output quality varies",
+    "Too many options can overwhelm",
+    "Less polished than competitors",
+    "Limited advanced features"
+  ],
+  "rating": 4.1,
+  "lastUpdated": "2026-02-24",
+  "tags": ["content-ideas", "templates", "affordable", "lifetime-deal", "marketing"]
+}

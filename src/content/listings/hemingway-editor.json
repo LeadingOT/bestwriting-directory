@@ -1,0 +1,39 @@
+{
+  "name": "Hemingway Editor",
+  "slug": "hemingway-editor",
+  "tagline": "Make your writing bold and clear",
+  "description": "Hemingway Editor is a writing tool that makes your writing bold and clear. It highlights complex sentences, passive voice, and readability issues. Named after Ernest Hemingway's clear writing style, it helps you write content that's easy to read and understand.",
+  "category": "Content Writing",
+  "subcategory": "Editing",
+  "url": "https://hemingwayapp.com",
+  "pricing": {
+    "model": "freemium",
+    "startingPrice": "$19.99 one-time"
+  },
+  "features": [
+    "Readability grading",
+    "Complex sentence detection",
+    "Passive voice highlighting",
+    "Adverb detection",
+    "Word count",
+    "Character count",
+    "Desktop app (paid)",
+    "Distraction-free writing"
+  ],
+  "pros": [
+    "Free web version",
+    "Simple and focused",
+    "One-time payment for desktop",
+    "Great for clarity",
+    "No subscription"
+  ],
+  "cons": [
+    "No AI suggestions",
+    "Can be too strict",
+    "Limited formatting",
+    "No collaboration features"
+  ],
+  "rating": 4.3,
+  "lastUpdated": "2026-02-24",
+  "tags": ["editing", "readability", "clarity", "free", "one-time-purchase"]
+}

@@ -1,0 +1,39 @@
+{
+  "name": "Lex",
+  "slug": "lex",
+  "tagline": "AI-powered word processor for creative writers",
+  "description": "Lex is a modern word processor with AI built in, designed for writers who want a clean, distraction-free environment with smart AI assistance. It offers real-time collaboration, beautiful design, and AI features that feel natural and unobtrusive.",
+  "category": "Creative Writing",
+  "subcategory": "Word Processor",
+  "url": "https://lex.page",
+  "pricing": {
+    "model": "freemium",
+    "startingPrice": "$8/mo"
+  },
+  "features": [
+    "AI writing assistant",
+    "Distraction-free editor",
+    "Real-time collaboration",
+    "Version history",
+    "Publishing tools",
+    "Markdown support",
+    "Beautiful typography",
+    "Mobile app"
+  ],
+  "pros": [
+    "Beautiful interface",
+    "Great writing experience",
+    "Affordable pricing",
+    "Free plan available",
+    "Natural AI integration"
+  ],
+  "cons": [
+    "Limited AI compared to dedicated tools",
+    "Smaller ecosystem",
+    "Fewer templates",
+    "Still in development"
+  ],
+  "rating": 4.5,
+  "lastUpdated": "2026-02-24",
+  "tags": ["creative-writing", "word-processor", "minimalist", "collaboration", "free-tier"]
+}

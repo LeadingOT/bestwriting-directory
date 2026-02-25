@@ -1,0 +1,39 @@
+{
+  "name": "Compose AI",
+  "slug": "compose-ai",
+  "tagline": "Free AI writing assistant that autocompletes your sentences",
+  "description": "Compose AI is a free Chrome extension that uses AI to autocomplete your sentences across all your tools. Perfect for writing emails, documents, and messages faster, it learns your writing style and provides personalized suggestions as you type.",
+  "category": "Email Writing",
+  "subcategory": "Autocomplete",
+  "url": "https://compose.ai",
+  "pricing": {
+    "model": "freemium",
+    "startingPrice": "$9.99/mo"
+  },
+  "features": [
+    "Sentence autocomplete",
+    "Email generation",
+    "Rephrase suggestions",
+    "Personalized to your style",
+    "Works everywhere",
+    "Keyboard shortcuts",
+    "Chrome extension",
+    "Gmail integration"
+  ],
+  "pros": [
+    "Completely free",
+    "Works on any website",
+    "Saves time typing",
+    "Learns your style",
+    "No signup required"
+  ],
+  "cons": [
+    "Chrome only",
+    "Premium features limited",
+    "Can be too aggressive",
+    "Privacy concerns"
+  ],
+  "rating": 4.4,
+  "lastUpdated": "2026-02-24",
+  "tags": ["email-writing", "autocomplete", "free", "chrome-extension", "productivity"]
+}

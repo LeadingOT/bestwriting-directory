@@ -1,0 +1,38 @@
+{
+  "name": "Sudowrite",
+  "slug": "sudowrite",
+  "tagline": "AI writing partner for creative writers",
+  "description": "Sudowrite is an AI writing tool built specifically for creative writers, novelists, and screenwriters. It helps overcome writer's block, generate plot ideas, develop characters, and write compelling fiction with features like Describe, Brainstorm, and Story Bible.",
+  "category": "Creative Writing",
+  "subcategory": "Fiction Writing",
+  "url": "https://sudowrite.com",
+  "pricing": {
+    "model": "paid",
+    "startingPrice": "$19/mo"
+  },
+  "features": [
+    "Describe (vivid descriptions)",
+    "Brainstorm ideas",
+    "Rewrite & expand",
+    "Story Bible (character database)",
+    "Twist generator",
+    "Canvas mode",
+    "Genre-specific training",
+    "No word count limits"
+  ],
+  "pros": [
+    "Best for fiction writers",
+    "High-quality creative output",
+    "Understands narrative structure",
+    "Great for beating writer's block"
+  ],
+  "cons": [
+    "Expensive for hobbyists",
+    "No free tier",
+    "Overkill for non-fiction",
+    "Learning curve"
+  ],
+  "rating": 4.7,
+  "lastUpdated": "2026-02-24",
+  "tags": ["creative-writing", "fiction", "novel-writing", "screenwriting", "storytelling"]
+}

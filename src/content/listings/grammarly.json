@@ -1,0 +1,37 @@
+{
+  "name": "Grammarly",
+  "slug": "grammarly",
+  "tagline": "AI writing assistant for clear communication",
+  "description": "Grammarly is the world's leading AI-powered writing assistant that helps you write clearly and mistake-free. It checks grammar, spelling, punctuation, clarity, engagement, and delivery across all your writing platforms with real-time suggestions.",
+  "category": "Content Writing",
+  "subcategory": "Editing & Proofreading",
+  "url": "https://grammarly.com",
+  "pricing": {
+    "model": "freemium",
+    "startingPrice": "$12/mo"
+  },
+  "features": [
+    "Grammar & spelling check",
+    "Tone detection",
+    "Plagiarism detection",
+    "Style suggestions",
+    "Vocabulary enhancement",
+    "Browser extension",
+    "Desktop app",
+    "Mobile keyboard"
+  ],
+  "pros": [
+    "Highly accurate grammar checking",
+    "Works everywhere",
+    "Free version is powerful",
+    "User-friendly interface"
+  ],
+  "cons": [
+    "Premium features are expensive",
+    "Can be overly cautious",
+    "Limited creative writing support"
+  ],
+  "rating": 4.7,
+  "lastUpdated": "2026-02-24",
+  "tags": ["grammar-checker", "editing", "proofreading", "writing-assistant", "free-tier"]
+}

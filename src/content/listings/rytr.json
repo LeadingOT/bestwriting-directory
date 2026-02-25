@@ -1,0 +1,37 @@
+{
+  "name": "Rytr",
+  "slug": "rytr",
+  "tagline": "Affordable AI writing assistant",
+  "description": "Rytr is one of the most affordable AI writing tools that helps you create high-quality content in seconds. With 40+ use cases, 30+ languages, and 20+ tones, Rytr is perfect for bloggers, marketers, and entrepreneurs looking for budget-friendly AI writing.",
+  "category": "Content Writing",
+  "subcategory": "General Writing",
+  "url": "https://rytr.me",
+  "pricing": {
+    "model": "freemium",
+    "startingPrice": "$9/mo"
+  },
+  "features": [
+    "40+ use cases",
+    "30+ languages",
+    "20+ tones of voice",
+    "Built-in plagiarism checker",
+    "SEO analyzer",
+    "Chrome extension",
+    "WordPress plugin",
+    "Unlimited projects"
+  ],
+  "pros": [
+    "Very affordable",
+    "Generous free plan",
+    "Simple interface",
+    "Good for beginners"
+  ],
+  "cons": [
+    "Limited advanced features",
+    "Output needs more editing",
+    "Smaller template selection"
+  ],
+  "rating": 4.5,
+  "lastUpdated": "2026-02-24",
+  "tags": ["budget-friendly", "content-writing", "free-tier", "beginner-friendly", "blogging"]
+}

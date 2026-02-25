@@ -1,0 +1,38 @@
+{
+  "name": "Notion AI",
+  "slug": "notion-ai",
+  "tagline": "AI writing integrated into your workspace",
+  "description": "Notion AI brings powerful AI writing capabilities directly into your Notion workspace. Write, edit, summarize, and brainstorm without leaving Notion. Perfect for teams and individuals who already use Notion for documentation and project management.",
+  "category": "Business Writing",
+  "subcategory": "Productivity",
+  "url": "https://notion.so/product/ai",
+  "pricing": {
+    "model": "paid",
+    "startingPrice": "$10/mo"
+  },
+  "features": [
+    "Write entire documents",
+    "Summarize notes",
+    "Brainstorm ideas",
+    "Translate content",
+    "Fix spelling & grammar",
+    "Change tone",
+    "Make longer/shorter",
+    "Action items extraction"
+  ],
+  "pros": [
+    "Seamless Notion integration",
+    "Great for teams",
+    "Affordable add-on",
+    "Context-aware suggestions"
+  ],
+  "cons": [
+    "Requires Notion subscription",
+    "Limited compared to dedicated AI writers",
+    "Only works in Notion",
+    "No standalone access"
+  ],
+  "rating": 4.4,
+  "lastUpdated": "2026-02-24",
+  "tags": ["productivity", "workspace", "team-collaboration", "note-taking", "business-writing"]
+}

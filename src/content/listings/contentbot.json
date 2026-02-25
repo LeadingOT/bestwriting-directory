@@ -1,0 +1,38 @@
+{
+  "name": "ContentBot",
+  "slug": "contentbot",
+  "tagline": "AI content automation for everyone",
+  "description": "ContentBot is an AI-powered content creation tool that helps you generate blog posts, social media content, ad copy, and more. With automation flows and bulk content creation, it's designed for marketers who need to produce content at scale.",
+  "category": "Content Writing",
+  "subcategory": "Content Automation",
+  "url": "https://contentbot.ai",
+  "pricing": {
+    "model": "paid",
+    "startingPrice": "$19/mo"
+  },
+  "features": [
+    "Blog post automation",
+    "Automation flows",
+    "Bulk content creation",
+    "70+ AI tools",
+    "Plagiarism checker",
+    "WordPress integration",
+    "API access",
+    "Custom AI commands"
+  ],
+  "pros": [
+    "Great for bulk content",
+    "Automation flows",
+    "Affordable pricing",
+    "WordPress integration"
+  ],
+  "cons": [
+    "Quality needs review",
+    "No free tier",
+    "Less sophisticated AI",
+    "Limited customization"
+  ],
+  "rating": 4.0,
+  "lastUpdated": "2026-02-24",
+  "tags": ["automation", "bulk-content", "wordpress", "blogging", "affordable"]
+}

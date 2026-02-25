@@ -1,0 +1,94 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '../layouts/Layout.astro';
+
+const allListings = await getCollection('listings');
+const topTools = allListings
+  .filter(l => l.data.rating && l.data.rating >= 4.4)
+  .sort((a, b) => (b.data.rating || 0) - (a.data.rating || 0))
+  .slice(0, 10);
+---
+
+<Layout title="AI Writing Tools Comparison - Find the Best Tool for You">
+  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <div class="text-center mb-12">
+      <h1 class="text-4xl font-bold text-gray-900 mb-4">
+        AI Writing Tools Comparison
+      </h1>
+      <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+        Compare the top AI writing tools side-by-side to find the perfect fit for your needs
+      </p>
+    </div>
+
+    <div class="overflow-x-auto">
+      <table class="min-w-full bg-white shadow-md rounded-lg overflow-hidden">
+        <thead class="bg-gray-100">
+          <tr>
+            <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">Tool</th>
+            <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">Category</th>
+            <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">Pricing</th>
+            <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">Rating</th>
+            <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">Best For</th>
+          </tr>
+        </thead>
+        <tbody class="divide-y divide-gray-200">
+          {topTools.map((tool) => (
+            <tr class="hover:bg-gray-50">
+              <td class="px-6 py-4">
+                <a href={`/listing/${tool.data.slug}`} class="font-medium text-blue-600 hover:text-blue-800">
+                  {tool.data.name}
+                </a>
+              </td>
+              <td class="px-6 py-4 text-sm text-gray-600">{tool.data.category}</td>
+              <td class="px-6 py-4 text-sm">
+                <span class="inline-block bg-green-100 text-green-800 px-2 py-1 rounded text-xs">
+                  {tool.data.pricing.model}
+                </span>
+                {tool.data.pricing.startingPrice && (
+                  <div class="text-xs text-gray-500 mt-1">{tool.data.pricing.startingPrice}</div>
+                )}
+              </td>
+              <td class="px-6 py-4 text-sm">
+                <span class="text-yellow-600">⭐ {tool.data.rating}</span>
+              </td>
+              <td class="px-6 py-4 text-sm text-gray-600">{tool.data.tagline}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+
+    <div class="mt-16 prose prose-lg max-w-none">
+      <h2>How to Use This Comparison</h2>
+      <p>
+        Our comparison table helps you quickly evaluate the top AI writing tools across key dimensions:
+      </p>
+      <ul>
+        <li><strong>Category:</strong> What type of writing the tool specializes in</li>
+        <li><strong>Pricing Model:</strong> Free, freemium, paid, or enterprise</li>
+        <li><strong>Rating:</strong> Overall quality score based on features, output, and value</li>
+        <li><strong>Best For:</strong> Primary use case or audience</li>
+      </ul>
+
+      <h2>Popular Comparisons</h2>
+      <div class="grid md:grid-cols-2 gap-4 not-prose">
+        <a href="/blog/ai-writing-tools-comparison" class="block p-4 bg-blue-50 rounded-lg hover:bg-blue-100">
+          <h3 class="font-bold text-gray-900">Jasper vs Copy.ai vs Writesonic</h3>
+          <p class="text-sm text-gray-600">Which marketing AI tool is best?</p>
+        </a>
+        <a href="/blog/best-free-ai-writing-tools" class="block p-4 bg-blue-50 rounded-lg hover:bg-blue-100">
+          <h3 class="font-bold text-gray-900">Free vs Paid AI Writing Tools</h3>
+          <p class="text-sm text-gray-600">When to upgrade to premium</p>
+        </a>
+        <a href="/blog/ai-writing-vs-human-writing" class="block p-4 bg-blue-50 rounded-lg hover:bg-blue-100">
+          <h3 class="font-bold text-gray-900">AI vs Human Writing</h3>
+          <p class="text-sm text-gray-600">The honest comparison</p>
+        </a>
+        <a href="/categories" class="block p-4 bg-blue-50 rounded-lg hover:bg-blue-100">
+          <h3 class="font-bold text-gray-900">Browse by Category</h3>
+          <p class="text-sm text-gray-600">Find tools by specialization</p>
+        </a>
+      </div>
+    </div>
+  </main>
+</Layout>

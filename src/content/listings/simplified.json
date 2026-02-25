@@ -1,0 +1,38 @@
+{
+  "name": "Simplified",
+  "slug": "simplified",
+  "tagline": "All-in-one marketing platform with AI",
+  "description": "Simplified is an all-in-one marketing platform that combines AI writing, graphic design, video editing, and social media management. Perfect for marketing teams and agencies, it offers AI copywriting alongside design tools in one subscription.",
+  "category": "Copywriting",
+  "subcategory": "Marketing Suite",
+  "url": "https://simplified.com",
+  "pricing": {
+    "model": "freemium",
+    "startingPrice": "$12/mo"
+  },
+  "features": [
+    "AI copywriter",
+    "Graphic design tools",
+    "Video editor",
+    "Social media scheduler",
+    "70+ templates",
+    "Brand kit",
+    "Team collaboration",
+    "Stock photos & videos"
+  ],
+  "pros": [
+    "All-in-one platform",
+    "Great value for money",
+    "Free plan available",
+    "Multiple tools in one"
+  ],
+  "cons": [
+    "Jack of all trades",
+    "AI writing less advanced",
+    "Can feel overwhelming",
+    "Learning curve for all features"
+  ],
+  "rating": 4.3,
+  "lastUpdated": "2026-02-24",
+  "tags": ["all-in-one", "marketing", "design", "social-media", "free-tier"]
+}

@@ -1,0 +1,38 @@
+{
+  "name": "Frase",
+  "slug": "frase",
+  "tagline": "AI-powered SEO content optimization",
+  "description": "Frase is an AI-powered SEO content tool that helps you research, write, and optimize content that ranks. It analyzes top-ranking content for your target keywords and provides AI-driven insights to help you create comprehensive, SEO-optimized articles.",
+  "category": "SEO Writing",
+  "subcategory": "Content Optimization",
+  "url": "https://frase.io",
+  "pricing": {
+    "model": "paid",
+    "startingPrice": "$15/mo"
+  },
+  "features": [
+    "SERP analysis",
+    "Content briefs",
+    "AI content generation",
+    "Topic modeling",
+    "Content optimization",
+    "Question extraction",
+    "Outline builder",
+    "Google Search Console integration"
+  ],
+  "pros": [
+    "Excellent for SEO content",
+    "Data-driven insights",
+    "Comprehensive research",
+    "Great content briefs"
+  ],
+  "cons": [
+    "Expensive for individuals",
+    "Learning curve",
+    "AI writing needs editing",
+    "Limited to SEO use case"
+  ],
+  "rating": 4.6,
+  "lastUpdated": "2026-02-24",
+  "tags": ["seo-writing", "content-optimization", "serp-analysis", "research", "data-driven"]
+}

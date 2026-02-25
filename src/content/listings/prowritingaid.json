@@ -1,0 +1,39 @@
+{
+  "name": "ProWritingAid",
+  "slug": "prowritingaid",
+  "tagline": "Grammar checker, style editor, and writing mentor",
+  "description": "ProWritingAid is a comprehensive writing assistant that combines grammar checking, style editing, and in-depth writing reports. Popular with fiction writers, bloggers, and students, it offers 20+ writing reports to help improve your writing skills over time.",
+  "category": "Content Writing",
+  "subcategory": "Editing & Analysis",
+  "url": "https://prowritingaid.com",
+  "pricing": {
+    "model": "freemium",
+    "startingPrice": "$10/mo"
+  },
+  "features": [
+    "20+ writing reports",
+    "Grammar & style checking",
+    "Thesaurus & dictionary",
+    "Sentence structure analysis",
+    "Plagiarism checker",
+    "Readability scores",
+    "Word explorer",
+    "Integrations with Word, Scrivener, Google Docs"
+  ],
+  "pros": [
+    "Comprehensive analysis",
+    "Great for fiction writers",
+    "Affordable lifetime option",
+    "In-depth reports",
+    "Scrivener integration"
+  ],
+  "cons": [
+    "Can be overwhelming",
+    "Slower than Grammarly",
+    "Free version very limited",
+    "Steep learning curve"
+  ],
+  "rating": 4.5,
+  "lastUpdated": "2026-02-24",
+  "tags": ["editing", "grammar", "fiction-writing", "analysis", "comprehensive"]
+}

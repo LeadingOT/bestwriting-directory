@@ -1,0 +1,38 @@
+{
+  "name": "LongShot AI",
+  "slug": "longshot-ai",
+  "tagline": "AI writing assistant for long-form content",
+  "description": "LongShot AI is an AI writing assistant specialized in creating factual, long-form content that's research-backed and SEO-optimized. With real-time fact-checking and semantic SEO features, it's perfect for bloggers and content marketers who need accurate content.",
+  "category": "SEO Writing",
+  "subcategory": "Long-form Content",
+  "url": "https://longshot.ai",
+  "pricing": {
+    "model": "freemium",
+    "startingPrice": "$29/mo"
+  },
+  "features": [
+    "Fact-checking",
+    "Semantic SEO",
+    "Content claim detection",
+    "Research mode",
+    "Headline generator",
+    "Workflow templates",
+    "Custom AI templates",
+    "Chrome extension"
+  ],
+  "pros": [
+    "Excellent fact-checking",
+    "Great for long-form SEO",
+    "Research-backed content",
+    "Competitive pricing"
+  ],
+  "cons": [
+    "Slower generation",
+    "Less known brand",
+    "Free plan very limited",
+    "Interface could be better"
+  ],
+  "rating": 4.4,
+  "lastUpdated": "2026-02-24",
+  "tags": ["long-form", "seo-writing", "fact-checking", "research", "semantic-seo"]
+}

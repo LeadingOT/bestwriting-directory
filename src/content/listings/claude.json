@@ -1,0 +1,39 @@
+{
+  "name": "Claude",
+  "slug": "claude",
+  "tagline": "Helpful, harmless, and honest AI assistant",
+  "description": "Claude by Anthropic is an advanced AI assistant known for producing nuanced, thoughtful writing. Excellent for long-form content, analysis, and creative tasks, Claude offers a more measured and contextual approach compared to other AI writing tools.",
+  "category": "Content Writing",
+  "subcategory": "General AI Writing",
+  "url": "https://claude.ai",
+  "pricing": {
+    "model": "freemium",
+    "startingPrice": "$20/mo"
+  },
+  "features": [
+    "200K token context window",
+    "Claude 3.5 Sonnet",
+    "Document analysis",
+    "Code generation",
+    "Vision capabilities",
+    "Thoughtful responses",
+    "Mobile app",
+    "API access"
+  ],
+  "pros": [
+    "Excellent for long-form content",
+    "More nuanced than competitors",
+    "Great at analysis",
+    "Strong safety features",
+    "Large context window"
+  ],
+  "cons": [
+    "Can be overly cautious",
+    "Slower than some alternatives",
+    "Free tier more limited",
+    "Fewer integrations"
+  ],
+  "rating": 4.7,
+  "lastUpdated": "2026-02-24",
+  "tags": ["general-ai", "long-form", "analysis", "thoughtful", "free-tier"]
+}

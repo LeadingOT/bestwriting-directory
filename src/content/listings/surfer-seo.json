@@ -1,0 +1,38 @@
+{
+  "name": "Surfer SEO",
+  "slug": "surfer-seo",
+  "tagline": "Data-driven SEO content workflow",
+  "description": "Surfer SEO is a cloud-based on-page optimization tool that helps you create perfectly optimized content. It provides real-time guidance on keywords, content structure, and readability to help your content rank higher in search results.",
+  "category": "SEO Writing",
+  "subcategory": "On-Page SEO",
+  "url": "https://surferseo.com",
+  "pricing": {
+    "model": "paid",
+    "startingPrice": "$89/mo"
+  },
+  "features": [
+    "Content editor with real-time scoring",
+    "SERP analyzer",
+    "Keyword research",
+    "Content planner",
+    "AI outline generator",
+    "Google Docs integration",
+    "Content audit",
+    "Team collaboration"
+  ],
+  "pros": [
+    "Best-in-class content editor",
+    "Real-time optimization",
+    "Data-driven recommendations",
+    "Jasper integration"
+  ],
+  "cons": [
+    "Expensive",
+    "Steep learning curve",
+    "Can be overwhelming",
+    "Focuses only on SEO"
+  ],
+  "rating": 4.7,
+  "lastUpdated": "2026-02-24",
+  "tags": ["seo-writing", "content-optimization", "on-page-seo", "keyword-research", "premium"]
+}

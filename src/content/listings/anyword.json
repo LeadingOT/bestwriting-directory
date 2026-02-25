@@ -1,0 +1,38 @@
+{
+  "name": "Anyword",
+  "slug": "anyword",
+  "tagline": "Data-driven AI copywriting platform",
+  "description": "Anyword is a data-driven AI copywriting platform that predicts which copy will perform best before you publish. Popular with marketing teams, it uses predictive analytics to generate and optimize copy for ads, emails, landing pages, and more.",
+  "category": "Copywriting",
+  "subcategory": "Performance Marketing",
+  "url": "https://anyword.com",
+  "pricing": {
+    "model": "paid",
+    "startingPrice": "$49/mo"
+  },
+  "features": [
+    "Predictive performance score",
+    "Copy intelligence",
+    "A/B testing integration",
+    "Brand voice training",
+    "Ad copy generator",
+    "Email optimization",
+    "Landing page copy",
+    "Analytics dashboard"
+  ],
+  "pros": [
+    "Data-driven predictions",
+    "Great for performance marketing",
+    "Brand voice customization",
+    "ROI tracking"
+  ],
+  "cons": [
+    "Expensive for small businesses",
+    "No free tier",
+    "Focused on marketing only",
+    "Predictions not always accurate"
+  ],
+  "rating": 4.5,
+  "lastUpdated": "2026-02-24",
+  "tags": ["copywriting", "performance-marketing", "data-driven", "ads", "analytics"]
+}

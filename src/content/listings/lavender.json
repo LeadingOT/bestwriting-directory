@@ -1,0 +1,38 @@
+{
+  "name": "Lavender",
+  "slug": "lavender",
+  "tagline": "AI email coach for better sales emails",
+  "description": "Lavender is an AI-powered email assistant designed for sales teams. It provides real-time coaching, email scoring, and personalization suggestions to help you write emails that get responses. Lavender analyzes billions of emails to give data-driven recommendations.",
+  "category": "Email Writing",
+  "subcategory": "Sales Email",
+  "url": "https://lavender.ai",
+  "pricing": {
+    "model": "freemium",
+    "startingPrice": "$29/mo"
+  },
+  "features": [
+    "Email scoring",
+    "Personalization assistant",
+    "Mobile preview",
+    "Spam word detection",
+    "Team benchmarking",
+    "AI email writer",
+    "Gmail & Outlook integration",
+    "Response likelihood prediction"
+  ],
+  "pros": [
+    "Best for sales emails",
+    "Data-driven insights",
+    "Real-time coaching",
+    "Great free tier"
+  ],
+  "cons": [
+    "Focused on sales only",
+    "Can be overwhelming",
+    "Premium is expensive",
+    "Requires email access"
+  ],
+  "rating": 4.7,
+  "lastUpdated": "2026-02-24",
+  "tags": ["email-writing", "sales", "coaching", "personalization", "free-tier"]
+}

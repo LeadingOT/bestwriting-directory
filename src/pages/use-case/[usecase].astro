@@ -1,0 +1,83 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '../../layouts/Layout.astro';
+
+export function getStaticPaths() {
+  const useCases = [
+    { slug: 'blogging', name: 'Blogging', description: 'Create engaging blog posts that rank', keywords: 'AI writing tools for blogging' },
+    { slug: 'seo', name: 'SEO Content', description: 'Optimize content for search engines', keywords: 'best AI writing tools for SEO' },
+    { slug: 'marketing', name: 'Marketing', description: 'Write compelling marketing copy', keywords: 'AI copywriting tools for marketing' },
+    { slug: 'social-media', name: 'Social Media', description: 'Generate engaging social content', keywords: 'AI tools for social media writing' },
+    { slug: 'email', name: 'Email Writing', description: 'Craft effective email campaigns', keywords: 'AI email writing assistants' },
+    { slug: 'fiction', name: 'Fiction Writing', description: 'Tools for creative storytelling', keywords: 'AI writing tools for authors' },
+    { slug: 'academic', name: 'Academic Writing', description: 'Research papers and essays', keywords: 'AI writing tools for students' },
+    { slug: 'business', name: 'Business Writing', description: 'Professional business documents', keywords: 'AI writing tools for business' },
+  ];
+  
+  return useCases.map(uc => ({
+    params: { usecase: uc.slug },
+    props: { useCase: uc },
+  }));
+}
+
+const { useCase } = Astro.props;
+const allListings = await getCollection('listings');
+
+// Filter listings relevant to this use case
+const relevantListings = allListings.filter(listing => {
+  const tags = listing.data.tags.join(' ').toLowerCase();
+  const category = listing.data.category.toLowerCase();
+  return tags.includes(useCase.slug) || category.includes(useCase.name.toLowerCase());
+}).slice(0, 12);
+---
+
+<Layout title={`Best AI Writing Tools for ${useCase.name} in 2026`}>
+  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <div class="text-center mb-12">
+      <h1 class="text-4xl font-bold text-gray-900 mb-4">
+        Best AI Writing Tools for {useCase.name}
+      </h1>
+      <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+        {useCase.description}. Compare the top AI writing assistants optimized for {useCase.name.toLowerCase()}.
+      </p>
+    </div>
+
+    <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+      {relevantListings.map((listing) => (
+        <a href={`/listing/${listing.data.slug}`} class="bg-white rounded-lg shadow-md p-6 hover:shadow-xl transition">
+          <h3 class="text-xl font-bold text-gray-900 mb-2">{listing.data.name}</h3>
+          <p class="text-gray-600 mb-4">{listing.data.tagline}</p>
+          <div class="flex items-center justify-between">
+            <span class="text-sm text-blue-600">{listing.data.pricing.model}</span>
+            {listing.data.rating && (
+              <span class="text-sm text-yellow-600">⭐ {listing.data.rating}</span>
+            )}
+          </div>
+        </a>
+      ))}
+    </div>
+
+    <div class="mt-16 prose prose-lg max-w-none">
+      <h2>Why Use AI Writing Tools for {useCase.name}?</h2>
+      <p>
+        AI writing tools have revolutionized {useCase.name.toLowerCase()} by providing intelligent 
+        assistance that helps you create better content faster. Whether you're a professional or 
+        just getting started, these tools can significantly improve your {useCase.name.toLowerCase()} workflow.
+      </p>
+      
+      <h2>How to Choose the Right Tool</h2>
+      <ul>
+        <li><strong>Consider your budget:</strong> Free tiers vs paid plans</li>
+        <li><strong>Evaluate features:</strong> Focus on tools built for {useCase.name.toLowerCase()}</li>
+        <li><strong>Test output quality:</strong> Try before you commit</li>
+        <li><strong>Check integrations:</strong> Ensure it works with your existing tools</li>
+      </ul>
+
+      <p class="text-center mt-8">
+        <a href="/categories" class="text-blue-600 hover:text-blue-800">
+          Browse all AI writing tools →
+        </a>
+      </p>
+    </div>
+  </main>
+</Layout>

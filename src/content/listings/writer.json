@@ -1,0 +1,39 @@
+{
+  "name": "Writer",
+  "slug": "writer",
+  "tagline": "AI writing platform for enterprise teams",
+  "description": "Writer is an enterprise-grade AI writing platform that helps teams write on-brand content at scale. With advanced compliance, security, and brand voice features, Writer is designed for large organizations that need governance and consistency.",
+  "category": "Business Writing",
+  "subcategory": "Enterprise Content",
+  "url": "https://writer.com",
+  "pricing": {
+    "model": "enterprise",
+    "startingPrice": "Custom pricing"
+  },
+  "features": [
+    "Brand voice training",
+    "Style guide enforcement",
+    "Terminology management",
+    "Compliance features",
+    "Security & governance",
+    "API access",
+    "Team analytics",
+    "Integrations"
+  ],
+  "pros": [
+    "Best for enterprise",
+    "Strong governance features",
+    "Brand consistency",
+    "Security & compliance",
+    "Excellent support"
+  ],
+  "cons": [
+    "Very expensive",
+    "Overkill for small teams",
+    "Custom pricing only",
+    "Complex setup"
+  ],
+  "rating": 4.6,
+  "lastUpdated": "2026-02-24",
+  "tags": ["enterprise", "business-writing", "compliance", "brand-voice", "team-platform"]
+}

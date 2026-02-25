@@ -1,0 +1,37 @@
+{
+  "name": "Writesonic",
+  "slug": "writesonic",
+  "tagline": "AI writer for creating SEO-optimized content",
+  "description": "Writesonic is an AI writing platform that helps you create SEO-optimized content for blogs, ads, emails, and websites. With features like AI article writer, Photosonic for images, and Chatsonic for conversational AI, it's a complete content creation suite.",
+  "category": "SEO Writing",
+  "subcategory": "Content Marketing",
+  "url": "https://writesonic.com",
+  "pricing": {
+    "model": "freemium",
+    "startingPrice": "$19/mo"
+  },
+  "features": [
+    "AI article writer 6.0",
+    "SEO optimization",
+    "Fact-checked content",
+    "Brand voice",
+    "Bulk article generation",
+    "WordPress integration",
+    "Chatsonic (ChatGPT alternative)",
+    "Photosonic for AI images"
+  ],
+  "pros": [
+    "Great for SEO content",
+    "Competitive pricing",
+    "Multiple AI tools in one",
+    "Good free trial"
+  ],
+  "cons": [
+    "Quality varies",
+    "Credit system can be confusing",
+    "Interface can feel cluttered"
+  ],
+  "rating": 4.3,
+  "lastUpdated": "2026-02-24",
+  "tags": ["seo-writing", "blog-writing", "content-creation", "ai-chatbot", "free-tier"]
+}

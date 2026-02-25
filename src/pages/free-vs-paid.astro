@@ -1,0 +1,134 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '../layouts/Layout.astro';
+
+const allListings = await getCollection('listings');
+const freeTools = allListings.filter(l => l.data.pricing.model === 'free' || l.data.pricing.model === 'freemium');
+const paidTools = allListings.filter(l => l.data.pricing.model === 'paid' || l.data.pricing.model === 'enterprise');
+---
+
+<Layout title="Free vs Paid AI Writing Tools - Which Should You Choose?">
+  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <div class="text-center mb-12">
+      <h1 class="text-4xl font-bold text-gray-900 mb-4">
+        Free vs Paid AI Writing Tools
+      </h1>
+      <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+        Understand the differences and choose the right option for your needs
+      </p>
+    </div>
+
+    <div class="grid md:grid-cols-2 gap-8 mb-16">
+      <div class="bg-green-50 rounded-lg p-8">
+        <h2 class="text-2xl font-bold text-gray-900 mb-4">Free & Freemium Tools</h2>
+        <p class="text-gray-600 mb-6">
+          {freeTools.length} tools offer free access or generous free tiers
+        </p>
+        <div class="space-y-4">
+          {freeTools.slice(0, 6).map(tool => (
+            <a href={`/listing/${tool.data.slug}`} class="block bg-white rounded p-4 hover:shadow-md transition">
+              <h3 class="font-bold text-gray-900">{tool.data.name}</h3>
+              <p class="text-sm text-gray-600">{tool.data.tagline}</p>
+              <span class="text-xs text-green-600 mt-2 inline-block">
+                {tool.data.pricing.model === 'free' ? 'Completely Free' : 'Free Tier Available'}
+              </span>
+            </a>
+          ))}
+        </div>
+        <a href="/categories" class="mt-6 inline-block text-blue-600 hover:text-blue-800">
+          See all free tools →
+        </a>
+      </div>
+
+      <div class="bg-blue-50 rounded-lg p-8">
+        <h2 class="text-2xl font-bold text-gray-900 mb-4">Paid & Premium Tools</h2>
+        <p class="text-gray-600 mb-6">
+          {paidTools.length} professional tools with advanced features
+        </p>
+        <div class="space-y-4">
+          {paidTools.slice(0, 6).map(tool => (
+            <a href={`/listing/${tool.data.slug}`} class="block bg-white rounded p-4 hover:shadow-md transition">
+              <h3 class="font-bold text-gray-900">{tool.data.name}</h3>
+              <p class="text-sm text-gray-600">{tool.data.tagline}</p>
+              <div class="flex items-center justify-between mt-2">
+                <span class="text-xs text-blue-600">
+                  {tool.data.pricing.startingPrice || 'Custom Pricing'}
+                </span>
+                {tool.data.rating && (
+                  <span class="text-xs text-yellow-600">⭐ {tool.data.rating}</span>
+                )}
+              </div>
+            </a>
+          ))}
+        </div>
+        <a href="/categories" class="mt-6 inline-block text-blue-600 hover:text-blue-800">
+          See all paid tools →
+        </a>
+      </div>
+    </div>
+
+    <div class="prose prose-lg max-w-none">
+      <h2>Key Differences</h2>
+      
+      <h3>Free Tools Excel At:</h3>
+      <ul>
+        <li>Basic writing assistance and grammar checking</li>
+        <li>Learning AI writing without financial commitment</li>
+        <li>Low-volume content needs (1-5 pieces per week)</li>
+        <li>Personal projects and experimentation</li>
+        <li>Email writing and quick edits</li>
+      </ul>
+
+      <h3>Paid Tools Offer:</h3>
+      <ul>
+        <li>Higher quality output and more sophisticated AI</li>
+        <li>No word count or usage limits</li>
+        <li>Advanced features (SEO optimization, brand voice, plagiarism checking)</li>
+        <li>Priority support and faster processing</li>
+        <li>Team collaboration and enterprise features</li>
+      </ul>
+
+      <h2>When to Stick with Free</h2>
+      <p>Free tools are sufficient if you:</p>
+      <ul>
+        <li>Write occasionally (not daily)</li>
+        <li>Don't need advanced SEO or marketing features</li>
+        <li>Can edit AI output yourself</li>
+        <li>Have flexible deadlines</li>
+        <li>Create content for personal use</li>
+      </ul>
+
+      <h2>When to Upgrade to Paid</h2>
+      <p>Consider paid tools when:</p>
+      <ul>
+        <li>You hit free tier limits regularly</li>
+        <li>Content quality directly impacts revenue</li>
+        <li>You need high-volume content production</li>
+        <li>Time savings justify the cost</li>
+        <li>You require specialized features (SEO, brand voice)</li>
+        <li>You're serving clients or running a business</li>
+      </ul>
+
+      <h2>Best Free + Paid Combinations</h2>
+      <p>Many users find success combining free and paid tools:</p>
+      <ul>
+        <li><strong>ChatGPT Free</strong> (ideation) + <strong>Jasper Paid</strong> (final copy)</li>
+        <li><strong>Grammarly Free</strong> (editing) + <strong>Writesonic Paid</strong> (content creation)</li>
+        <li><strong>Compose AI Free</strong> (emails) + <strong>Copy.ai Paid</strong> (marketing)</li>
+      </ul>
+
+      <div class="bg-yellow-50 border-l-4 border-yellow-400 p-4 my-8">
+        <p class="text-sm">
+          <strong>Pro Tip:</strong> Start with free tools and only upgrade when you clearly 
+          understand what features you need. Many users overpay for features they never use.
+        </p>
+      </div>
+
+      <p class="text-center mt-12">
+        <a href="/blog/best-free-ai-writing-tools" class="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700">
+          Read our Free Tools Guide →
+        </a>
+      </p>
+    </div>
+  </main>
+</Layout>

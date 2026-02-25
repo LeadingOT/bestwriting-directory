@@ -1,0 +1,38 @@
+{
+  "name": "MarketMuse",
+  "slug": "marketmuse",
+  "tagline": "AI content planning and optimization platform",
+  "description": "MarketMuse is an enterprise-level AI content intelligence platform that helps you plan, research, and optimize content at scale. It uses AI to analyze your content against competitors and provides actionable insights to improve topical authority.",
+  "category": "SEO Writing",
+  "subcategory": "Content Strategy",
+  "url": "https://marketmuse.com",
+  "pricing": {
+    "model": "freemium",
+    "startingPrice": "$149/mo"
+  },
+  "features": [
+    "Content inventory analysis",
+    "Topic modeling",
+    "Competitive content analysis",
+    "Content brief creation",
+    "AI-powered research",
+    "SERP analysis",
+    "Content optimization",
+    "Team workflows"
+  ],
+  "pros": [
+    "Enterprise-grade insights",
+    "Comprehensive content strategy",
+    "Advanced topic modeling",
+    "Great for content teams"
+  ],
+  "cons": [
+    "Very expensive",
+    "Overkill for small blogs",
+    "Complex interface",
+    "Steep learning curve"
+  ],
+  "rating": 4.4,
+  "lastUpdated": "2026-02-24",
+  "tags": ["seo-writing", "content-strategy", "enterprise", "topic-modeling", "competitive-analysis"]
+}

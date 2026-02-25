@@ -1,0 +1,44 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '../layouts/Layout.astro';
+
+const blogPosts = await getCollection('blog');
+const sortedPosts = blogPosts.sort((a, b) => 
+  new Date(b.data.publishDate).getTime() - new Date(a.data.publishDate).getTime()
+);
+---
+
+<Layout title="Blog - Best AI Writing Tools">
+  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <div class="text-center mb-12">
+      <h1 class="text-4xl font-bold text-gray-900 mb-4">AI Writing Blog</h1>
+      <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+        Insights, guides, and comparisons to help you master AI writing tools
+      </p>
+    </div>
+
+    <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+      {sortedPosts.map((post) => (
+        <article class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition">
+          <div class="p-6">
+            {post.data.featured && (
+              <span class="inline-block bg-blue-600 text-white text-xs px-2 py-1 rounded mb-2">
+                Featured
+              </span>
+            )}
+            <h2 class="text-xl font-bold text-gray-900 mb-2">
+              <a href={`/blog/${post.id}`} class="hover:text-blue-600">
+                {post.data.title}
+              </a>
+            </h2>
+            <p class="text-gray-600 mb-4">{post.data.description}</p>
+            <div class="flex items-center justify-between text-sm text-gray-500">
+              <span>{post.data.publishDate}</span>
+              <span class="text-blue-600">{post.data.category}</span>
+            </div>
+          </div>
+        </article>
+      ))}
+    </div>
+  </main>
+</Layout>

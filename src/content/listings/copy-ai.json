@@ -1,0 +1,37 @@
+{
+  "name": "Copy.ai",
+  "slug": "copy-ai",
+  "tagline": "AI-powered copywriting for marketing",
+  "description": "Copy.ai is an AI copywriting tool that helps marketers, entrepreneurs, and content creators generate marketing copy in seconds. From social media posts to email campaigns, Copy.ai makes copywriting fast and easy with 90+ tools and templates.",
+  "category": "Copywriting",
+  "subcategory": "Marketing Copy",
+  "url": "https://copy.ai",
+  "pricing": {
+    "model": "freemium",
+    "startingPrice": "$49/mo"
+  },
+  "features": [
+    "90+ copywriting tools",
+    "Blog post wizard",
+    "Social media captions",
+    "Email sequences",
+    "Product descriptions",
+    "Ad copy generator",
+    "25+ languages",
+    "Tone adjustment"
+  ],
+  "pros": [
+    "Generous free tier",
+    "Easy to use",
+    "Great for social media",
+    "Fast content generation"
+  ],
+  "cons": [
+    "Output needs editing",
+    "Limited long-form on free plan",
+    "Can be repetitive"
+  ],
+  "rating": 4.4,
+  "lastUpdated": "2026-02-24",
+  "tags": ["copywriting", "marketing", "social-media", "email-marketing", "free-tier"]
+}

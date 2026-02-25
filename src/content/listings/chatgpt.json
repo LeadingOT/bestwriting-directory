@@ -1,0 +1,39 @@
+{
+  "name": "ChatGPT",
+  "slug": "chatgpt",
+  "tagline": "Conversational AI for writing anything",
+  "description": "ChatGPT by OpenAI is the most popular conversational AI that can help with virtually any writing task. From blog posts and emails to code and creative stories, ChatGPT adapts to your needs with natural conversation and powerful language understanding.",
+  "category": "Content Writing",
+  "subcategory": "General AI Writing",
+  "url": "https://chat.openai.com",
+  "pricing": {
+    "model": "freemium",
+    "startingPrice": "$20/mo"
+  },
+  "features": [
+    "Conversational interface",
+    "GPT-4 access (Plus)",
+    "Image generation (DALL-E)",
+    "Web browsing",
+    "Code interpreter",
+    "Custom instructions",
+    "Mobile app",
+    "API access"
+  ],
+  "pros": [
+    "Extremely versatile",
+    "Free tier available",
+    "Natural conversation",
+    "Constantly improving",
+    "Huge knowledge base"
+  ],
+  "cons": [
+    "Can hallucinate facts",
+    "No built-in plagiarism check",
+    "Free tier has limitations",
+    "Can be verbose"
+  ],
+  "rating": 4.8,
+  "lastUpdated": "2026-02-24",
+  "tags": ["general-ai", "chatbot", "versatile", "free-tier", "popular"]
+}

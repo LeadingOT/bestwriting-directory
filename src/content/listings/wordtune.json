@@ -1,0 +1,37 @@
+{
+  "name": "Wordtune",
+  "slug": "wordtune",
+  "tagline": "AI writing companion that understands what you're trying to say",
+  "description": "Wordtune is an AI-powered writing assistant that helps you rewrite and rephrase sentences to say exactly what you mean. It offers multiple rewriting suggestions, tone adjustments, and smart features to make your writing clearer and more engaging.",
+  "category": "Content Writing",
+  "subcategory": "Rewriting",
+  "url": "https://wordtune.com",
+  "pricing": {
+    "model": "freemium",
+    "startingPrice": "$9.99/mo"
+  },
+  "features": [
+    "Real-time rewriting",
+    "Casual/formal tone switch",
+    "Expand/shorten options",
+    "AI suggestions",
+    "Spices (creativity boost)",
+    "Browser extension",
+    "Mobile app",
+    "Works in Gmail, Docs, Slack"
+  ],
+  "pros": [
+    "Natural-sounding rewrites",
+    "Great for non-native speakers",
+    "Works across platforms",
+    "Intuitive interface"
+  ],
+  "cons": [
+    "Free plan limited to 10 rewrites/day",
+    "Can be slow sometimes",
+    "Premium is expensive for casual use"
+  ],
+  "rating": 4.5,
+  "lastUpdated": "2026-02-24",
+  "tags": ["rewriting", "editing", "tone-adjustment", "writing-improvement", "free-tier"]
+}

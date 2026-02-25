@@ -1,0 +1,39 @@
+{
+  "name": "Scribe",
+  "slug": "scribe",
+  "tagline": "Turn any process into a step-by-step guide",
+  "description": "Scribe automatically creates step-by-step guides with screenshots as you perform any process. Perfect for creating SOPs, training materials, and technical documentation. Scribe captures your clicks and turns them into visual instructions instantly.",
+  "category": "Technical Writing",
+  "subcategory": "Documentation",
+  "url": "https://scribehow.com",
+  "pricing": {
+    "model": "freemium",
+    "startingPrice": "$23/mo"
+  },
+  "features": [
+    "Auto-capture workflows",
+    "Screenshot annotation",
+    "AI-generated descriptions",
+    "PDF export",
+    "Sensitive data redaction",
+    "Custom branding",
+    "Team sharing",
+    "Chrome extension"
+  ],
+  "pros": [
+    "Saves tons of time",
+    "Easy to use",
+    "Great for SOPs",
+    "Free plan available",
+    "Visual documentation"
+  ],
+  "cons": [
+    "Limited to process documentation",
+    "Chrome only for capture",
+    "Free plan has watermark",
+    "Not for written content"
+  ],
+  "rating": 4.8,
+  "lastUpdated": "2026-02-24",
+  "tags": ["technical-writing", "documentation", "sop", "training", "free-tier"]
+}

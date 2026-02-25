@@ -1,0 +1,37 @@
+{
+  "name": "Jasper AI",
+  "slug": "jasper-ai",
+  "tagline": "AI copilot for marketing teams",
+  "description": "Jasper is a powerful AI writing assistant designed for marketing teams and content creators. It helps generate high-quality blog posts, social media content, ads, and more using advanced AI technology. Jasper integrates with popular tools and supports 30+ languages.",
+  "category": "Content Writing",
+  "subcategory": "Marketing Content",
+  "url": "https://jasper.ai",
+  "pricing": {
+    "model": "paid",
+    "startingPrice": "$49/mo"
+  },
+  "features": [
+    "50+ AI templates",
+    "Brand voice customization",
+    "SEO mode",
+    "Plagiarism checker",
+    "30+ languages",
+    "Team collaboration",
+    "Browser extension",
+    "API access"
+  ],
+  "pros": [
+    "High-quality output",
+    "Extensive template library",
+    "Great for marketing copy",
+    "Strong brand voice feature"
+  ],
+  "cons": [
+    "Expensive for individuals",
+    "Learning curve for advanced features",
+    "No free plan"
+  ],
+  "rating": 4.6,
+  "lastUpdated": "2026-02-24",
+  "tags": ["ai-writing", "content-marketing", "copywriting", "seo", "blog-writing"]
+}

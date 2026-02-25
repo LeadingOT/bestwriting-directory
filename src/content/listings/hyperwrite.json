@@ -1,0 +1,38 @@
+{
+  "name": "HyperWrite",
+  "slug": "hyperwrite",
+  "tagline": "Your personal AI writing assistant",
+  "description": "HyperWrite is a personal AI writing assistant that helps you write, communicate, and create faster. With features like AutoWrite, TypeAhead, and Email Responder, HyperWrite integrates seamlessly into your workflow across any website.",
+  "category": "Content Writing",
+  "subcategory": "General Writing",
+  "url": "https://hyperwrite.ai",
+  "pricing": {
+    "model": "freemium",
+    "startingPrice": "$19.99/mo"
+  },
+  "features": [
+    "AutoWrite",
+    "TypeAhead predictions",
+    "Email responder",
+    "Magic editor",
+    "Explain like I'm 5",
+    "Summarizer",
+    "Chrome extension",
+    "Works on any website"
+  ],
+  "pros": [
+    "Works everywhere",
+    "Generous free tier",
+    "Natural suggestions",
+    "Simple to use"
+  ],
+  "cons": [
+    "Premium features limited",
+    "Can be too aggressive",
+    "Less control than competitors",
+    "Occasional irrelevant suggestions"
+  ],
+  "rating": 4.3,
+  "lastUpdated": "2026-02-24",
+  "tags": ["general-writing", "chrome-extension", "email", "free-tier", "productivity"]
+}

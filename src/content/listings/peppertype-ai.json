@@ -1,0 +1,38 @@
+{
+  "name": "Peppertype.ai",
+  "slug": "peppertype-ai",
+  "tagline": "AI content platform for marketing teams",
+  "description": "Peppertype.ai (now Pepper Content) is an AI-powered content marketing platform that helps create high-quality content for blogs, social media, ads, and websites. Built for marketing teams, it offers content generation, collaboration, and performance tracking.",
+  "category": "Content Writing",
+  "subcategory": "Content Marketing",
+  "url": "https://peppertype.ai",
+  "pricing": {
+    "model": "paid",
+    "startingPrice": "$35/mo"
+  },
+  "features": [
+    "50+ content templates",
+    "Blog post generator",
+    "Social media content",
+    "Ad copy creation",
+    "SEO meta descriptions",
+    "Content calendar",
+    "Team collaboration",
+    "Multi-language support"
+  ],
+  "pros": [
+    "Good template variety",
+    "User-friendly interface",
+    "Team features",
+    "Affordable pricing"
+  ],
+  "cons": [
+    "Less known than competitors",
+    "AI output needs editing",
+    "Limited advanced features",
+    "No free tier"
+  ],
+  "rating": 4.2,
+  "lastUpdated": "2026-02-24",
+  "tags": ["content-marketing", "team-collaboration", "templates", "social-media", "blogging"]
+}

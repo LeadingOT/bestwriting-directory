@@ -1,0 +1,37 @@
+{
+  "name": "QuillBot",
+  "slug": "quillbot",
+  "tagline": "AI-powered paraphrasing and summarization",
+  "description": "QuillBot is an AI writing tool specializing in paraphrasing, summarizing, and grammar checking. It helps students, writers, and professionals rephrase text, avoid plagiarism, and improve writing clarity with multiple paraphrasing modes.",
+  "category": "Academic Writing",
+  "subcategory": "Paraphrasing",
+  "url": "https://quillbot.com",
+  "pricing": {
+    "model": "freemium",
+    "startingPrice": "$8.33/mo"
+  },
+  "features": [
+    "7 paraphrasing modes",
+    "Summarizer",
+    "Grammar checker",
+    "Citation generator",
+    "Plagiarism checker",
+    "Translator (30+ languages)",
+    "Chrome extension",
+    "Word/Google Docs integration"
+  ],
+  "pros": [
+    "Excellent paraphrasing quality",
+    "Great for students",
+    "Affordable pricing",
+    "Free version available"
+  ],
+  "cons": [
+    "Free plan has word limits",
+    "Premium modes locked behind paywall",
+    "Can change meaning if not careful"
+  ],
+  "rating": 4.6,
+  "lastUpdated": "2026-02-24",
+  "tags": ["paraphrasing", "academic-writing", "summarization", "plagiarism-checker", "student-tool"]
+}
