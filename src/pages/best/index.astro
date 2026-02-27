@@ -1,0 +1,60 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const title = `Best Writing Tools by Category 2026`;
+const description = `Browse the best writing tools organized by category. Find exactly what you're looking for.`;
+
+const categories = [
+  {
+    "name": "AI Writing",
+    "slug": "ai-writing",
+    "description": "Top ai writing options"
+  },
+  {
+    "name": "Grammar Checkers",
+    "slug": "grammar-checkers",
+    "description": "Top grammar checkers options"
+  },
+  {
+    "name": "SEO Tools",
+    "slug": "seo-tools",
+    "description": "Top seo tools options"
+  },
+  {
+    "name": "Plagiarism Checkers",
+    "slug": "plagiarism-checkers",
+    "description": "Top plagiarism checkers options"
+  },
+  {
+    "name": "Note Taking",
+    "slug": "note-taking",
+    "description": "Top note taking options"
+  },
+  {
+    "name": "Editing",
+    "slug": "editing",
+    "description": "Top editing options"
+  }
+];
+---
+
+<BaseLayout title={title} description={description}>
+  <div class="mb-12 text-center">
+    <h1 class="text-4xl font-bold mb-4">{title}</h1>
+    <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+      {description}
+    </p>
+  </div>
+
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+    {categories.map(cat => (
+      <a 
+        href={`/best/${cat.slug}`}
+        class="p-6 bg-white border border-gray-200 rounded-lg hover:shadow-lg hover:border-blue-300 transition-all"
+      >
+        <h3 class="text-xl font-bold mb-2">{cat.name}</h3>
+        <p class="text-gray-600 text-sm">{cat.description}</p>
+      </a>
+    ))}
+  </div>
+</BaseLayout>
