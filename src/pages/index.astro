@@ -9,22 +9,22 @@ const categories = [...new Set(allListings.map((l) => l.data.category))];
 const schema = {
   '@context': 'https://schema.org',
   '@type': 'WebSite',
-  name: 'Directory',
-  description: 'Find the best tools and services',
+  name: 'Best Writing Tools',
+  description: 'Find the best AI writing tools, grammar checkers, and content creation software for writers',
   url: Astro.url.origin,
 };
 ---
 
 <BaseLayout
-  title="Directory - Find the Best Tools"
-  description="Comprehensive directory of the best tools and services. Compare features, pricing, and reviews."
+  title="Best Writing Tools - AI Writers, Grammar Checkers & Content Creation (2026)"
+  description="Discover the best writing tools for authors, bloggers, and content creators. AI writing assistants, grammar checkers, SEO tools, and more. Compare features, pricing, and reviews."
   schema={schema}
 >
   <!-- Hero -->
   <section class="text-center py-12">
-    <h1 class="text-4xl font-bold mb-4">Find the Best Tools for Your Needs</h1>
+    <h1 class="text-4xl font-bold mb-4">Best Writing Tools for 2026</h1>
     <p class="text-lg text-gray-600 max-w-2xl mx-auto">
-      Compare features, pricing, and reviews. Updated regularly.
+      AI writing assistants, grammar checkers, and content creation tools. Compare features, pricing, and reviews.
     </p>
   </section>
 
