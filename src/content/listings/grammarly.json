@@ -2,7 +2,7 @@
   "name": "Grammarly",
   "slug": "grammarly",
   "tagline": "AI writing assistant for clear communication",
-  "description": "Grammarly is the world's leading AI-powered writing assistant that helps you write clearly and mistake-free. It checks grammar, spelling, punctuation, clarity, engagement, and delivery across all your writing platforms with real-time suggestions.",
+  "description": "Grammarly is an AI-powered writing assistant that integrates directly into your workflow to improve the quality and clarity of your text. It goes beyond basic spell-checking to analyze grammar, punctuation, tone, and style in real time. It works across platforms like web browsers, Microsoft Office, Google Docs, and mobile devices, ensuring your writing is polished wherever you work.\n\nKey features include an advanced grammar and contextual spelling checker that catches subtle errors others miss, a tone detector that provides real-time feedback on how your message might be perceived, and genre-specific writing style suggestions that adapt whether you're drafting an email, a report, or a social media post. It also offers plagiarism detection and vocabulary enhancement recommendations.\n\nGrammarly is for anyone who writes regularly, including students, professionals, marketers, and non-native English speakers. Its main benefit is building confidence in your communication by ensuring your writing is not only error-free but also clear and appropriately tailored to your audience and purpose.\n\nA clear use case is drafting an important client email. As you write, Grammarly can flag overly complex sentences for simplification, suggest a more professional tone, and correct any grammatical slips, helping you present a competent and polished final message. The tool offers a robust free plan for essential corrections, with premium plans unlocking full style, tone, and plagiarism checks.",
   "category": "Content Writing",
   "subcategory": "Editing & Proofreading",
   "url": "https://grammarly.com",
@@ -33,5 +33,11 @@
   ],
   "rating": 4.7,
   "lastUpdated": "2026-02-24",
-  "tags": ["grammar-checker", "editing", "proofreading", "writing-assistant", "free-tier"]
+  "tags": [
+    "grammar-checker",
+    "editing",
+    "proofreading",
+    "writing-assistant",
+    "free-tier"
+  ]
 }

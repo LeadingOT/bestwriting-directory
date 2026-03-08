@@ -2,7 +2,7 @@
   "name": "Hemingway Editor",
   "slug": "hemingway-editor",
   "tagline": "Make your writing bold and clear",
-  "description": "Hemingway Editor is a writing tool that makes your writing bold and clear. It highlights complex sentences, passive voice, and readability issues. Named after Ernest Hemingway's clear writing style, it helps you write content that's easy to read and understand.",
+  "description": "The Hemingway Editor is a practical writing tool designed to improve the clarity and impact of your prose. It analyzes your text to identify and highlight common issues that weaken writing, such as overly complex sentences, excessive adverb use, and passive voice constructions. Named for Ernest Hemingway's famously direct style, its core purpose is to help you produce content that is easy for readers to digest on the first pass.\n\nKey features include its color-coded highlighting system, which instantly shows you where to simplify sentences or strengthen your voice, and its built-in readability grade score that targets a specific reading level. It also offers formatting tools and a distraction-free writing mode. This tool is ideal for bloggers, marketers, students, and professionals who need to communicate complex ideas with simplicity and authority. Its main benefit is providing objective, immediate feedback on your draft's readability, allowing you to edit with precision.\n\nA clear use case is preparing a blog post. After drafting, you paste the text into the Hemingway Editor. It might flag a long, complicated sentence in yellow, suggesting you split it. It could highlight several adverbs in blue, prompting you to find stronger verbs. By addressing these highlights, you systematically refine the post into a more forceful and accessible piece before publishing. The freemium model allows robust online editing for free, with a paid desktop version for offline use.",
   "category": "Content Writing",
   "subcategory": "Editing",
   "url": "https://hemingwayapp.com",
@@ -35,5 +35,11 @@
   ],
   "rating": 4.3,
   "lastUpdated": "2026-02-24",
-  "tags": ["editing", "readability", "clarity", "free", "one-time-purchase"]
+  "tags": [
+    "editing",
+    "readability",
+    "clarity",
+    "free",
+    "one-time-purchase"
+  ]
 }

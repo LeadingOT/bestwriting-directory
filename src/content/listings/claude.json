@@ -2,7 +2,7 @@
   "name": "Claude",
   "slug": "claude",
   "tagline": "Helpful, harmless, and honest AI assistant",
-  "description": "Claude by Anthropic is an advanced AI assistant known for producing nuanced, thoughtful writing. Excellent for long-form content, analysis, and creative tasks, Claude offers a more measured and contextual approach compared to other AI writing tools.",
+  "description": "Claude is an AI assistant from Anthropic designed for creating and refining written content. It specializes in generating long-form, coherent text with a focus on nuance and context, making it a practical tool for writers, marketers, researchers, and businesses. Its core function is to help you draft, edit, and analyze text, from blog posts and reports to creative stories and technical documentation.\n\nKey features include an exceptionally large context window, allowing it to process and reference entire documents, such as lengthy reports or multiple uploaded files, to maintain consistency. It excels at following complex instructions and producing detailed, structured outputs. A standout capability is its thoughtful approach to content moderation and refusal of harmful requests, which contributes to safer, more reliable outputs.\n\nThe main benefit is receiving thorough, context-aware writing that requires less revision. For example, you can upload a project brief and a set of data points, and Claude can synthesize them into a comprehensive, well-organized draft report. It’s particularly useful for anyone who needs to produce detailed, accurate content efficiently without sacrificing depth or quality. The freemium model provides substantial capability at no cost, with advanced tiers available for heavier usage.",
   "category": "Content Writing",
   "subcategory": "General AI Writing",
   "url": "https://claude.ai",
@@ -35,5 +35,11 @@
   ],
   "rating": 4.7,
   "lastUpdated": "2026-02-24",
-  "tags": ["general-ai", "long-form", "analysis", "thoughtful", "free-tier"]
+  "tags": [
+    "general-ai",
+    "long-form",
+    "analysis",
+    "thoughtful",
+    "free-tier"
+  ]
 }

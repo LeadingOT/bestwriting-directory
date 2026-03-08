@@ -2,7 +2,7 @@
   "name": "HyperWrite",
   "slug": "hyperwrite",
   "tagline": "Your personal AI writing assistant",
-  "description": "HyperWrite is a personal AI writing assistant that helps you write, communicate, and create faster. With features like AutoWrite, TypeAhead, and Email Responder, HyperWrite integrates seamlessly into your workflow across any website.",
+  "description": "HyperWrite is a personal AI writing assistant designed to help you draft text, reply to messages, and generate content more efficiently. It operates directly within your browser, working on virtually any website or application you use, from email clients and document editors to social media platforms and project management tools.\n\nIts core functionality includes AutoWrite, which generates full paragraphs or entire documents from a simple prompt, and TypeAhead, which predicts and completes your sentences in real-time as you type. Another key feature is the Email Responder, which can draft context-aware replies to incoming messages in your inbox. This deep integration means you don't have to switch between windows to get AI help.\n\nHyperWrite is ideal for professionals, students, and anyone who writes regularly as part of their work. This includes marketers drafting copy, customer support agents handling inquiries, students writing essays, or managers communicating with their teams. The main benefit is a significant reduction in time spent on first drafts and routine writing tasks, allowing you to focus on refining ideas and strategy.\n\nFor example, a content creator could use the AutoWrite feature to quickly generate a detailed blog post outline from a one-sentence topic idea, then use TypeAhead to speed up the writing process within their preferred CMS. The freemium model allows you to test its core capabilities before upgrading for higher usage limits and advanced features.",
   "category": "Content Writing",
   "subcategory": "General Writing",
   "url": "https://hyperwrite.ai",
@@ -34,5 +34,11 @@
   ],
   "rating": 4.3,
   "lastUpdated": "2026-02-24",
-  "tags": ["general-writing", "chrome-extension", "email", "free-tier", "productivity"]
+  "tags": [
+    "general-writing",
+    "chrome-extension",
+    "email",
+    "free-tier",
+    "productivity"
+  ]
 }

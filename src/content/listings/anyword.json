@@ -2,7 +2,7 @@
   "name": "Anyword",
   "slug": "anyword",
   "tagline": "Data-driven AI copywriting platform",
-  "description": "Anyword is a data-driven AI copywriting platform that predicts which copy will perform best before you publish. Popular with marketing teams, it uses predictive analytics to generate and optimize copy for ads, emails, landing pages, and more.",
+  "description": "Anyword is an AI-powered writing assistant designed to create and refine marketing copy with a focus on proven performance. Its core function is to generate text for various channels—including social media ads, email campaigns, landing pages, and blog content—while providing predictive performance scores for each variation. This allows users to compare options and select the copy most likely to resonate with their target audience before spending any budget.\n\nKey features include its Brand Voice tools, which learn and replicate your company’s unique tone, and its Targeted Audience tools, which let you tailor messages for specific customer segments like \"Millennial homeowners\" or \"B2B SaaS buyers.\" The platform also offers a browser extension for real-time writing suggestions across websites like Google Ads and Shopify.\n\nIt is primarily for marketing teams, content creators, and growth specialists who need to produce high-converting copy efficiently and reduce the guesswork in their A/B testing. The main benefit is reducing risk; you can make informed decisions based on data, potentially improving engagement rates and ROI from the outset.\n\nA practical use case is launching a new product. A marketer can use Anyword to generate dozens of email subject line and ad headline variations, instantly see which score highest for driving conversions with their intended demographic, and deploy the strongest candidates, saving time on manual testing.",
   "category": "Copywriting",
   "subcategory": "Performance Marketing",
   "url": "https://anyword.com",
@@ -34,5 +34,11 @@
   ],
   "rating": 4.5,
   "lastUpdated": "2026-02-24",
-  "tags": ["copywriting", "performance-marketing", "data-driven", "ads", "analytics"]
+  "tags": [
+    "copywriting",
+    "performance-marketing",
+    "data-driven",
+    "ads",
+    "analytics"
+  ]
 }

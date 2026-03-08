@@ -2,7 +2,7 @@
   "name": "Compose AI",
   "slug": "compose-ai",
   "tagline": "Free AI writing assistant that autocompletes your sentences",
-  "description": "Compose AI is a free Chrome extension that uses AI to autocomplete your sentences across all your tools. Perfect for writing emails, documents, and messages faster, it learns your writing style and provides personalized suggestions as you type.",
+  "description": "Compose AI is a free Chrome extension that integrates AI-powered sentence autocompletion directly into your browser. It works wherever you write online, including Gmail, Google Docs, Slack, and social media platforms. The tool analyzes your typing in real-time to predict and suggest complete phrases or sentences, significantly reducing manual keystrokes and helping you maintain your flow of thought.\n\nKey features include its deep personalization, as it learns your unique writing style and vocabulary over time to provide more relevant suggestions. It also offers a versatile rewrite function, allowing you to highlight any text and get alternative phrasing for clarity or tone. Furthermore, it includes quick-action shortcuts to generate entire emails from a simple prompt, like \"schedule a meeting.\"\n\nThis tool is ideal for professionals, students, and anyone who spends a considerable part of their day writing digital communications. It’s particularly helpful for those who face frequent writer's block or want to improve their writing efficiency without switching between applications.\n\nThe main benefit is a tangible increase in writing speed and consistency across all your tools. For example, when replying to a client email, you can start typing \"Attached is the...\" and Compose AI will instantly suggest the full sentence \"Attached is the revised proposal for your review,\" which you can accept with a single tab key press. The freemium model provides robust functionality at no cost, with advanced features available for power users.",
   "category": "Email Writing",
   "subcategory": "Autocomplete",
   "url": "https://compose.ai",
@@ -35,5 +35,11 @@
   ],
   "rating": 4.4,
   "lastUpdated": "2026-02-24",
-  "tags": ["email-writing", "autocomplete", "free", "chrome-extension", "productivity"]
+  "tags": [
+    "email-writing",
+    "autocomplete",
+    "free",
+    "chrome-extension",
+    "productivity"
+  ]
 }

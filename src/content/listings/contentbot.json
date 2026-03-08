@@ -2,7 +2,7 @@
   "name": "ContentBot",
   "slug": "contentbot",
   "tagline": "AI content automation for everyone",
-  "description": "ContentBot is an AI-powered content creation tool that helps you generate blog posts, social media content, ad copy, and more. With automation flows and bulk content creation, it's designed for marketers who need to produce content at scale.",
+  "description": "ContentBot is an AI writing assistant that streamlines the creation of marketing and business content. It generates drafts for blog articles, social media posts, email newsletters, and advertising copy, significantly reducing the time spent on initial drafts. The tool is built specifically for marketing teams, agencies, and entrepreneurs who must maintain a consistent content output across multiple channels.\n\nKey features include customizable automation flows, where you can set up sequences to generate and format content in specific styles automatically. Its bulk content creation engine lets you produce dozens of social posts or product descriptions from a single prompt, ideal for campaigns or content calendars. The platform also offers a collaborative workspace with brand voice customization, ensuring all output aligns with your company's tone.\n\nA primary benefit is the consolidation of the content creation process, moving from ideation to first draft in one platform. For example, a content manager can use the bulk creation feature to generate a month's worth of LinkedIn carousel post ideas and captions in under ten minutes, then refine them within the tool. This practical approach allows teams to scale their content production without sacrificing consistency, freeing up time for strategy and editing.",
   "category": "Content Writing",
   "subcategory": "Content Automation",
   "url": "https://contentbot.ai",
@@ -32,7 +32,13 @@
     "Less sophisticated AI",
     "Limited customization"
   ],
-  "rating": 4.0,
+  "rating": 4,
   "lastUpdated": "2026-02-24",
-  "tags": ["automation", "bulk-content", "wordpress", "blogging", "affordable"]
+  "tags": [
+    "automation",
+    "bulk-content",
+    "wordpress",
+    "blogging",
+    "affordable"
+  ]
 }

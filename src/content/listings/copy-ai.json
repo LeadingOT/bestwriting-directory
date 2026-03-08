@@ -2,7 +2,7 @@
   "name": "Copy.ai",
   "slug": "copy-ai",
   "tagline": "AI-powered copywriting for marketing",
-  "description": "Copy.ai is an AI copywriting tool that helps marketers, entrepreneurs, and content creators generate marketing copy in seconds. From social media posts to email campaigns, Copy.ai makes copywriting fast and easy with 90+ tools and templates.",
+  "description": "Copy.ai is a freemium AI writing assistant designed to speed up the creation of marketing and business content. It helps users overcome writer's block and produce first drafts in seconds. The tool is built for marketers, small business owners, entrepreneurs, and content creators who need to generate consistent, on-brand copy without spending hours writing from scratch.\n\nIts core function is generating text across numerous formats using AI. Key features include access to over 90 specialized tools and templates for specific tasks. Standout features are the Blog Wizard, which guides you from outline to finished post, and the Infobase, which lets you store brand and product information for AI to reference, ensuring consistency. You can also use it for brainstorming ideas, creating ad variations, and rewriting existing content.\n\nThe main benefit is a significant reduction in the time and effort required for routine copywriting. For example, a social media manager could use Copy.ai to quickly generate a week's worth of post captions and hashtags for multiple platforms, then refine them to match their brand voice. This practical efficiency allows users to focus on strategy and refinement rather than initial creation.",
   "category": "Copywriting",
   "subcategory": "Marketing Copy",
   "url": "https://copy.ai",
@@ -33,5 +33,11 @@
   ],
   "rating": 4.4,
   "lastUpdated": "2026-02-24",
-  "tags": ["copywriting", "marketing", "social-media", "email-marketing", "free-tier"]
+  "tags": [
+    "copywriting",
+    "marketing",
+    "social-media",
+    "email-marketing",
+    "free-tier"
+  ]
 }

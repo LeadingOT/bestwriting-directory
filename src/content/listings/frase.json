@@ -2,7 +2,7 @@
   "name": "Frase",
   "slug": "frase",
   "tagline": "AI-powered SEO content optimization",
-  "description": "Frase is an AI-powered SEO content tool that helps you research, write, and optimize content that ranks. It analyzes top-ranking content for your target keywords and provides AI-driven insights to help you create comprehensive, SEO-optimized articles.",
+  "description": "Frase is an AI-powered platform designed to streamline the entire SEO content workflow, from initial research to final optimization. Its core function is to help content creators and marketers produce material that search engines favor and audiences find valuable. The tool begins by analyzing the top-ranking pages for your target keyword, identifying common questions, topic coverage, and structural patterns. It then provides a detailed content brief and AI-assisted writing to help you craft a comprehensive article that addresses user intent and incorporates relevant terms.\n\nKey features include its competitive content analysis, which breaks down what competing articles cover and where gaps exist, and its AI writing assistant, which helps expand sections and generate text within your editor. Another standout feature is its optimization scoring, which gives real-time feedback on how well your content aligns with SEO best practices before you publish.\n\nFrase is ideal for SEO specialists, content marketers, and freelance writers who need to produce high-quality, search-optimized content efficiently. Its main benefit is consolidating multiple research and writing tasks into a single tool, saving significant time while improving content depth and relevance.\n\nA practical use case is a blogger targeting a competitive keyword like \"best running shoes for flat feet.\" Instead of manually reviewing dozens of articles, Frase would instantly summarize key points from the top results, suggest a structure covering all subtopics, and guide the writer to produce a more thorough and optimized post than the existing competition.",
   "category": "SEO Writing",
   "subcategory": "Content Optimization",
   "url": "https://frase.io",
@@ -34,5 +34,11 @@
   ],
   "rating": 4.6,
   "lastUpdated": "2026-02-24",
-  "tags": ["seo-writing", "content-optimization", "serp-analysis", "research", "data-driven"]
+  "tags": [
+    "seo-writing",
+    "content-optimization",
+    "serp-analysis",
+    "research",
+    "data-driven"
+  ]
 }

@@ -2,7 +2,7 @@
   "name": "ChatGPT",
   "slug": "chatgpt",
   "tagline": "Conversational AI for writing anything",
-  "description": "ChatGPT by OpenAI is the most popular conversational AI that can help with virtually any writing task. From blog posts and emails to code and creative stories, ChatGPT adapts to your needs with natural conversation and powerful language understanding.",
+  "description": "ChatGPT is a conversational AI developed by OpenAI that assists with a wide range of text-based tasks. It functions as an interactive writing partner, generating and refining text based on your prompts and instructions. Its core capability is understanding and producing human-like language, making it useful for drafting, editing, brainstorming, and problem-solving through a simple chat interface.\n\nKey features include its adaptability to different writing styles and formats, the ability to remember context within a conversation, and support for over 50 languages. It can adjust its tone and detail based on your requests. A standout feature is its capacity for iterative refinement; you can ask it to shorten, expand, or rewrite a piece until it meets your needs. Another is its code generation and debugging ability for numerous programming languages.\n\nThis tool is for a broad audience, including students, professionals, marketers, developers, and anyone who regularly creates written content. It is particularly helpful for overcoming writer's block, improving first drafts, and saving time on routine writing tasks. The main benefit is having an always-available assistant that provides immediate feedback and content generation, streamlining the writing process.\n\nA clear use case is preparing a weekly business newsletter. You can provide ChatGPT with bullet points of key updates, ask it to generate a first draft in a professional tone, request a more engaging version, and finally, create a concise email subject line and social media post to promote it—all within a single, continuous conversation. The freemium model offers robust functionality at no cost, with an optional subscription for extended access.",
   "category": "Content Writing",
   "subcategory": "General AI Writing",
   "url": "https://chat.openai.com",
@@ -35,5 +35,11 @@
   ],
   "rating": 4.8,
   "lastUpdated": "2026-02-24",
-  "tags": ["general-ai", "chatbot", "versatile", "free-tier", "popular"]
+  "tags": [
+    "general-ai",
+    "chatbot",
+    "versatile",
+    "free-tier",
+    "popular"
+  ]
 }
