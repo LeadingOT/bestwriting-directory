@@ -13,12 +13,21 @@ const schema = {
   description: 'Find the best AI writing tools, grammar checkers, and content creation software for writers',
   url: Astro.url.origin,
 };
+
+const itemListSchema = {
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Best Writing Tools 2026",
+  "description": "Compare and review the top 20 tools in this category",
+  "numberOfItems": 20,
+  "url": "https://bestwriting.tools"
+};
 ---
 
 <BaseLayout
   title="Best Writing Tools - AI Writers, Grammar Checkers & Content Creation (2026)"
   description="Discover the best writing tools for authors, bloggers, and content creators. AI writing assistants, grammar checkers, SEO tools, and more. Compare features, pricing, and reviews."
-  schema={schema}
+  schema={itemListSchema}
 >
   <!-- Hero -->
   <section class="text-center py-12">

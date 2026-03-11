@@ -1,0 +1,29 @@
+# Best Writing Tools
+
+> AI writing tools, grammar checkers, and content creation platforms
+
+## Categories
+
+- [AI Writing Assistants](/category/ai-writing-assistants): GPT-powered content generation
+- [Grammar Checkers](/category/grammar-checkers): Proofreading and editing
+- [SEO Writing](/category/seo-writing): Content optimization tools
+- [Copywriting](/category/copywriting): Sales and marketing copy
+- [Creative Writing](/category/creative-writing): Fiction and storytelling
+
+## Comparison Guides
+
+- [Best Free AI Writing Tools](/best/best-free-ai-writing-tools)
+- [Best Grammar Checkers 2026](/best/best-grammar-checkers-2026)
+- [Top SEO Content Optimization Tools](/best/top-seo-content-optimization-tools)
+
+## Key Facts
+
+- 20 tools reviewed and compared
+- 5 categories covering all types
+- 3 in-depth comparison guides
+- Updated March 2026
+- Independent reviews — not sponsored
+
+## Sitemap
+
+- [Sitemap](https://#{domain}/sitemap-index.xml)
