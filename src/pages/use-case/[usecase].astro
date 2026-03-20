@@ -30,6 +30,8 @@ const relevantListings = allListings.filter(listing => {
   return tags.includes(useCase.slug) || category.includes(useCase.name.toLowerCase());
 }).slice(0, 12);
 ---
+export const prerender = true;
+
 
 <Layout title={`Best AI Writing Tools for ${useCase.name} in 2026`}>
   <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
