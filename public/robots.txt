@@ -60,4 +60,4 @@ User-agent: ImagesiftBot
 Allow: /
 Disallow: /api/
 
-Sitemap: https://bestwriting.tools/sitemap.xml
+Sitemap: https://bestwriting.tools/sitemap-index.xml
