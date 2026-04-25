@@ -1,0 +1,46 @@
+{
+  "name": "ParagraphAI",
+  "slug": "paragraphai",
+  "tagline": "AI writing assistant app for professional writing",
+  "description": "ParagraphAI is a mobile-first AI writing assistant that helps professionals write clear, grammatically correct, and appropriately toned content across email, messaging, and documents. Available as both a mobile keyboard and a web app, it brings AI writing assistance to wherever you type on your phone or computer.\n\nKey features include its AI Keyboard for iOS and Android, which integrates directly into any app where you type—Gmail, LinkedIn, WhatsApp, Slack, or any text field—providing real-time grammar correction, tone adjustment, and writing suggestions. The AI Writer generates complete emails, messages, reports, and essays from brief prompts. Its tone detector and modifier lets you instantly shift between formal, friendly, professional, and casual tones with one tap.\n\nParagraphAI is ideal for professionals who do significant writing on mobile devices—salespeople crafting client emails on the go, executives dictating reports, and students writing essays from their phones. Its standout benefit is ubiquity—unlike browser-based tools, ParagraphAI works in any app, making it the most accessible AI writing assistant for mobile-first users.\n\nA practical use case is a sales executive who primarily communicates via mobile email and LinkedIn messaging between meetings. With ParagraphAI's keyboard, they can draft professional, error-free client emails directly in their email app, adjust tone on the fly, and respond to messages with AI-generated replies that match their personal style—all without leaving their messaging apps. Plans start with a free tier, with premium features from $14.99/month.",
+  "category": "Content Writing",
+  "subcategory": "Mobile AI Assistant",
+  "url": "https://paragraphai.com",
+  "pricing": {
+    "model": "freemium",
+    "startingPrice": "$14.99/mo"
+  },
+  "features": [
+    "AI mobile keyboard (iOS & Android)",
+    "Tone detection and adjustment",
+    "Grammar and spelling correction",
+    "AI writer for emails and essays",
+    "Multi-language support",
+    "Works in any app",
+    "Reply suggestions",
+    "Paraphrasing tool"
+  ],
+  "pros": [
+    "Works in every app on your phone",
+    "Excellent mobile experience",
+    "Natural tone adjustment",
+    "Good free tier"
+  ],
+  "cons": [
+    "Limited desktop features",
+    "Premium can be pricey for casual users",
+    "AI output sometimes generic",
+    "Privacy concerns with keyboard access"
+  ],
+  "rating": 4.2,
+  "lastUpdated": "2026-04-25",
+  "tags": [
+    "mobile-writing",
+    "ai-keyboard",
+    "email-writing",
+    "professional-writing",
+    "grammar-checker"
+  ],
+  "seoTitle": "ParagraphAI: AI Writing Keyboard for 2026 | Complete Review",
+  "seoDescription": "Discover how ParagraphAI's AI keyboard brings writing assistance to every app on your phone. Write professional emails and messages anywhere!"
+}

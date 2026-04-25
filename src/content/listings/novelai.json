@@ -1,0 +1,46 @@
+{
+  "name": "NovelAI",
+  "slug": "novelai",
+  "tagline": "AI-powered storytelling for writers and creators",
+  "description": "NovelAI is an AI-assisted storytelling platform designed for creative writers, worldbuilders, and visual storytellers. Unlike general-purpose writing assistants, NovelAI specializes in narrative generation, character-driven storytelling, and rich worldbuilding—making it a favorite among fiction authors, game writers, and role-playing enthusiasts.\n\nKey features include its advanced Storyteller AI, which generates narrative prose that adapts to your style and characters. The Memory and Lorebook system allows you to create persistent world data—characters, locations, factions, and lore—that the AI references consistently throughout your story, preventing continuity errors. Its AI Image Generation creates character portraits, scene illustrations, and concept art directly within your story. NovelAI also offers custom AI model training, letting you fine-tune the AI on your specific writing style or favorite genre conventions.\n\nNovelAI is ideal for fiction writers, dungeon masters, game developers, and anyone who creates narrative content. Its main benefit is creative freedom—unlike corporate writing tools focused on marketing and SEO, NovelAI is built purely for creative expression with no content restrictions or censorship.\n\nA practical use case is a novelist developing a fantasy series. They can build a comprehensive Lorebook with their world's history, magic system, and character relationships, then write scenes where the AI stays perfectly in-universe—suggesting plot twists, character dialogue, and descriptive passages that maintain internal consistency across a 100,000+ word manuscript. Pricing starts with a free trial, with subscriptions from $10/month.",
+  "category": "Creative Writing",
+  "subcategory": "Storytelling",
+  "url": "https://novelai.net",
+  "pricing": {
+    "model": "paid",
+    "startingPrice": "$10/mo"
+  },
+  "features": [
+    "AI storytelling engine",
+    "Memory & Lorebook for worldbuilding",
+    "AI image generation for characters",
+    "Custom AI model training",
+    "Privacy-first (encrypted stories)",
+    "Unlimited story length",
+    "Genre-specific writing modes",
+    "Text adventure mode"
+  ],
+  "pros": [
+    "Excellent for fiction and storytelling",
+    "No content censorship",
+    "Strong worldbuilding tools",
+    "Privacy-focused platform"
+  ],
+  "cons": [
+    "Not suited for business writing",
+    "Limited non-fiction capabilities",
+    "Smaller user community",
+    "No SEO or marketing features"
+  ],
+  "rating": 4.5,
+  "lastUpdated": "2026-04-25",
+  "tags": [
+    "creative-writing",
+    "fiction",
+    "storytelling",
+    "worldbuilding",
+    "ai-writing"
+  ],
+  "seoTitle": "NovelAI: AI Storytelling Platform for Writers in 2026 | Full Review",
+  "seoDescription": "Discover how NovelAI helps fiction writers create compelling stories with AI-powered storytelling and worldbuilding tools. Unleash your creativity today!"
+}

@@ -1,0 +1,46 @@
+{
+  "name": "WordHero",
+  "slug": "wordhero",
+  "tagline": "AI writer with 100+ content generation tools",
+  "description": "WordHero is an AI writing tool that offers one of the largest libraries of content generation templates, with over 100 AI-powered writing tools for blog posts, social media, ads, emails, and more. It is designed for small business owners, freelancers, and marketers who need versatile content creation without the complexity of enterprise tools.\n\nKey features include its massive toolbox of 100+ writing assistants covering virtually every content type—from blog intros and conclusions to Facebook ads, product reviews, and email sequences. The Long-Form Editor provides a distraction-free writing environment with AI assistance for extended pieces. WordHero's Blog Wizard generates complete blog posts with outlines, introductions, and section content in minutes. The platform also supports 100+ languages, making it accessible to international users.\n\nWordHero is ideal for solopreneurs, freelancers, and small marketing teams who need an affordable, all-purpose AI writer. Its main benefit is breadth—instead of subscribing to multiple specialized tools, WordHero covers most common writing needs in one affordable package.\n\nA typical use case is a freelance writer managing content for several small clients across different industries. Using WordHero's diverse templates, they can quickly generate real estate listing descriptions, restaurant menu copy, SaaS landing page text, and email newsletters—all from one platform, maintaining efficiency without tool switching. WordHero offers a lifetime deal option alongside monthly subscriptions, making it attractive for budget-conscious users.",
+  "category": "Content Writing",
+  "subcategory": "Multi-Purpose",
+  "url": "https://wordhero.co",
+  "pricing": {
+    "model": "paid",
+    "startingPrice": "$49/mo"
+  },
+  "features": [
+    "100+ writing templates",
+    "Long-form editor",
+    "Blog Wizard for full posts",
+    "100+ language support",
+    "Keyword assistant",
+    "Tone settings",
+    "Lifetime deal option",
+    "Unlimited content generation"
+  ],
+  "pros": [
+    "Huge template library",
+    "One-time payment option",
+    "Good for diverse content needs",
+    "Simple, clean interface"
+  ],
+  "cons": [
+    "Output quality varies",
+    "No free plan available",
+    "Limited SEO features",
+    "Less advanced AI compared to newer tools"
+  ],
+  "rating": 4.2,
+  "lastUpdated": "2026-04-25",
+  "tags": [
+    "ai-writing",
+    "content-generation",
+    "blog-writing",
+    "copywriting",
+    "multi-purpose"
+  ],
+  "seoTitle": "WordHero: 100+ AI Writing Tools in One Platform | 2026 Review",
+  "seoDescription": "Explore WordHero's massive library of AI writing templates. Generate blog posts, ads, and emails in minutes. Perfect for freelancers and small businesses!"
+}

@@ -1,0 +1,46 @@
+{
+  "name": "Copysmith",
+  "slug": "copysmith",
+  "tagline": "AI copywriting for e-commerce and retail teams",
+  "description": "Copysmith (now Describely) is an AI-powered copywriting platform designed for e-commerce teams, retailers, and marketing agencies. It helps businesses generate high-converting product descriptions, ad copy, social media posts, and SEO content at scale with a focus on retail and product marketing.\n\nKey features include its Product Description Generator, which creates unique, benefit-driven product copy optimized for conversion and search. The Bulk Content Generation capability allows teams to create hundreds of product descriptions simultaneously by connecting product catalogs. Its Brand Voice training ensures all output stays consistent with your style guidelines. The platform also includes a Content Planner for organizing campaigns and a Collaboration Hub for team review workflows.\n\nCopysmith is ideal for e-commerce managers, retail marketers, and agencies that manage content across multiple stores and marketplaces. Its main advantage is seamless integration with major e-commerce platforms—Shopify, Amazon, WooCommerce, and BigCommerce—allowing content to flow directly from generation to live product pages.\n\nA practical use case is an agency managing product content for a multi-brand retailer operating on both Shopify and Amazon. Using Copysmith, they can maintain separate brand voices for each product line, generate platform-optimized descriptions (Shopify formatting vs. Amazon A+ content), and collaborate on approvals all within one dashboard. Pricing is customized based on volume, with plans designed for teams requiring high-volume content production.",
+  "category": "E-commerce Writing",
+  "subcategory": "Product Copywriting",
+  "url": "https://copysmith.ai",
+  "pricing": {
+    "model": "paid",
+    "startingPrice": "Custom pricing"
+  },
+  "features": [
+    "Bulk product description generation",
+    "Brand voice customization",
+    "Shopify & Amazon integration",
+    "Content planner and calendar",
+    "Team collaboration tools",
+    "SEO optimization",
+    "Ad copy generation",
+    "Multi-marketplace support"
+  ],
+  "pros": [
+    "Excellent e-commerce integrations",
+    "Strong team collaboration",
+    "Good for agencies",
+    "Consistent brand voice control"
+  ],
+  "cons": [
+    "Custom pricing (not transparent)",
+    "Focused on product content only",
+    "Steeper learning curve",
+    "Limited free trial"
+  ],
+  "rating": 4.2,
+  "lastUpdated": "2026-04-25",
+  "tags": [
+    "ecommerce-writing",
+    "product-descriptions",
+    "copywriting",
+    "retail",
+    "ai-writing"
+  ],
+  "seoTitle": "Copysmith: AI E-Commerce Copywriting Platform for 2026 | Review",
+  "seoDescription": "Explore how Copysmith generates product descriptions and marketing copy at scale. Perfect for e-commerce teams and agencies. Learn more today!"
+}

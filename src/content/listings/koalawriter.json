@@ -1,0 +1,46 @@
+{
+  "name": "KoalaWriter",
+  "slug": "koalawriter",
+  "tagline": "One-click SEO content writer with real-time data",
+  "description": "KoalaWriter is an AI-powered SEO content writer that generates research-backed, long-form articles with a single click. Built on top of GPT-4 and enhanced with real-time SERP analysis, it automatically structures your content to compete in search rankings by analyzing top-performing pages for your target keyword.\n\nKey features include one-click article generation that produces complete, well-structured posts with headers, images, and internal links. Its SERP-powered outline builder scans search results to determine the optimal content structure, while live Amazon data integration makes it especially powerful for affiliate marketers. KoalaChat, its companion AI chatbot, provides real-time SEO insights and content brainstorming.\n\nKoalaWriter is ideal for bloggers, affiliate marketers, and SEO professionals who need high-volume, search-optimized content without hours of manual research. Its main benefit is speed—transforming a keyword into a publish-ready article in minutes rather than hours.\n\nA clear use case is an affiliate marketer targeting a product review keyword. KoalaWriter can instantly pull in live product data, competitor analysis, and generate a comprehensive review with comparison tables, pros and cons, and buying guides, all optimized for search intent. Plans start at $9/month, making it one of the most affordable serious SEO writing tools.",
+  "category": "SEO Writing",
+  "subcategory": "AI Content Writer",
+  "url": "https://koala.sh",
+  "pricing": {
+    "model": "freemium",
+    "startingPrice": "$9/mo"
+  },
+  "features": [
+    "One-click article generation",
+    "SERP-powered outline builder",
+    "Live Amazon data integration",
+    "KoalaChat SEO assistant",
+    "WordPress auto-publish",
+    "Internal linking suggestions",
+    "Multiple writing styles",
+    "Brand voice customization"
+  ],
+  "pros": [
+    "Very affordable pricing",
+    "Excellent for SEO content",
+    "Fast article generation",
+    "Great for affiliate marketers"
+  ],
+  "cons": [
+    "Limited free plan",
+    "Output quality varies by niche",
+    "Newer tool, less established",
+    "Learning curve for advanced features"
+  ],
+  "rating": 4.5,
+  "lastUpdated": "2026-04-25",
+  "tags": [
+    "seo-writing",
+    "affiliate-marketing",
+    "blog-writing",
+    "content-generation",
+    "ai-writing"
+  ],
+  "seoTitle": "KoalaWriter: The Ultimate One-Click SEO Writer for 2026 | Our Review",
+  "seoDescription": "Discover how KoalaWriter generates SEO-optimized articles in minutes. Perfect for bloggers and affiliate marketers. Read our full review!"
+}

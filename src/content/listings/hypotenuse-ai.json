@@ -1,0 +1,46 @@
+{
+  "name": "Hypotenuse AI",
+  "slug": "hypotenuse-ai",
+  "tagline": "AI content writer for e-commerce and brands",
+  "description": "Hypotenuse AI is an AI-powered content creation platform purpose-built for e-commerce businesses, digital agencies, and brands that need high-quality product content at scale. It specializes in generating SEO-optimized product descriptions, category pages, and marketing copy that converts.\n\nKey features include bulk product description generation, which can produce hundreds of unique, SEO-friendly product descriptions in minutes by ingesting product data feeds or CSV files. Its Content Detective is a research-backed AI that scans the web for factual information, ensuring accuracy in generated content. The platform offers strong content workflow automation, allowing teams to set brand guidelines, approve content, and manage publishing across channels. It also supports image generation for product visuals via AI.\n\nHypotenuse AI is ideal for e-commerce managers, marketplace sellers, and digital agencies managing product catalogs. Its primary benefit is speed at scale—what would take a team of copywriters weeks can be done in hours, with consistent brand voice and SEO optimization across thousands of product pages.\n\nA real-world use case is an online retailer with 5,000 SKUs preparing for a seasonal sale. Using Hypotenuse AI, they can upload their product catalog, set brand guidelines, and generate unique, optimized descriptions for every product—each tailored to search intent and on-brand tone—in a single afternoon rather than hiring a team for weeks. Plans start at $29/month with a free trial available.",
+  "category": "E-commerce Writing",
+  "subcategory": "Product Descriptions",
+  "url": "https://hypotenuse.ai",
+  "pricing": {
+    "model": "paid",
+    "startingPrice": "$29/mo"
+  },
+  "features": [
+    "Bulk product description generation",
+    "Content Detective fact-checking",
+    "SEO-optimized content output",
+    "Brand voice customization",
+    "CSV product feed import",
+    "Workflow automation",
+    "AI image generation",
+    "Shopify & WordPress integration"
+  ],
+  "pros": [
+    "Best for bulk product content",
+    "Excellent SEO integration",
+    "Strong e-commerce focus",
+    "Good workflow automation"
+  ],
+  "cons": [
+    "Niche focus on e-commerce",
+    "Limited use for non-product content",
+    "Pricing can add up for large catalogs",
+    "Smaller template library"
+  ],
+  "rating": 4.3,
+  "lastUpdated": "2026-04-25",
+  "tags": [
+    "ecommerce-writing",
+    "product-descriptions",
+    "content-automation",
+    "seo-writing",
+    "ai-writing"
+  ],
+  "seoTitle": "Hypotenuse AI: E-Commerce Content Writer for 2026 | Full Review",
+  "seoDescription": "Discover how Hypotenuse AI creates SEO-optimized product descriptions at scale. Perfect for e-commerce stores and brands. Try it today!"
+}

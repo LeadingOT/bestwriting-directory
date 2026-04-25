@@ -1,0 +1,46 @@
+{
+  "name": "TextCortex",
+  "slug": "textcortex",
+  "tagline": "AI writing assistant with brand voice personalization",
+  "description": "TextCortex is an AI writing assistant designed to adapt to your unique communication style, helping individuals and teams write faster and more consistently across all platforms. It goes beyond generic AI writing by learning your brand voice, tone preferences, and writing patterns to produce content that sounds authentically like you or your company.\n\nKey features include its Brand Voice customization, which analyzes your existing content to create a personalized AI model that maintains your tone across all outputs. The Zeno Assistant offers over 100 AI templates for everything from emails and blog posts to product descriptions and ad copy. A standout feature is its knowledge base integration, which allows the AI to draw from your uploaded documents, ensuring factual accuracy and brand-specific terminology. The browser extension works seamlessly across 30,000+ websites, including Gmail, LinkedIn, and Google Docs.\n\nTextCortex is ideal for marketing teams, sales professionals, and content creators who need to produce on-brand content at scale. Its main benefit is personalization—unlike generic AI tools, TextCortex adapts to your voice so you spend less time editing AI output to sound like you.\n\nA practical use case is a marketing team maintaining consistent brand messaging across multiple channels. With TextCortex, they can train the AI on their brand guidelines and past content, then generate everything from blog posts to social media captions that automatically match their established voice, saving hours of manual editing and tone adjustment. Pricing includes a free plan with basic features, with paid plans offering unlimited generation.",
+  "category": "Content Writing",
+  "subcategory": "AI Assistant",
+  "url": "https://textcortex.com",
+  "pricing": {
+    "model": "freemium",
+    "startingPrice": "$24.99/mo"
+  },
+  "features": [
+    "Brand voice personalization",
+    "100+ AI writing templates",
+    "Knowledge base integration",
+    "Browser extension (30K+ sites)",
+    "Zeno AI assistant",
+    "Multi-language support",
+    "Team collaboration",
+    "API access"
+  ],
+  "pros": [
+    "Excellent brand voice adaptation",
+    "Wide platform integration",
+    "Good free plan available",
+    "Strong template library"
+  ],
+  "cons": [
+    "Free plan has daily limits",
+    "Learning curve for knowledge base",
+    "Output quality varies by template",
+    "Team features require higher tiers"
+  ],
+  "rating": 4.4,
+  "lastUpdated": "2026-04-25",
+  "tags": [
+    "ai-writing",
+    "brand-voice",
+    "content-marketing",
+    "writing-assistant",
+    "personalization"
+  ],
+  "seoTitle": "TextCortex: Personalized AI Writing Assistant for 2026 | Our Review",
+  "seoDescription": "Discover how TextCortex adapts to your brand voice for authentic AI writing. Create on-brand content everywhere you work. Read our full review!"
+}

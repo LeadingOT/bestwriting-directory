@@ -1,0 +1,46 @@
+{
+  "name": "Type.ai",
+  "slug": "type-ai",
+  "tagline": "AI-powered document editor for modern teams",
+  "description": "Type.ai is an AI-powered document editor that reimagines how teams write, collaborate, and publish content. Rather than bolting AI onto a traditional word processor, Type.ai was built from the ground up with AI as the core writing experience—offering a clean, distraction-free editor where AI assists you naturally as you compose documents, briefs, and reports.\n\nKey features include its intelligent AI autocomplete, which doesn't just finish sentences but suggests entire paragraphs that match your tone and document context. The AI Rewrite function can instantly restructure, summarize, or expand any selected text with natural-sounding results. Its Document Chat feature lets you ask questions about your content and get AI-generated answers, summaries, or improvements. The collaborative editing environment supports real-time team co-writing with AI assistance for every contributor.\n\nType.ai is perfect for teams that produce documents regularly—startups writing pitch decks and strategy docs, marketing teams drafting campaign briefs, and professionals creating reports and proposals. Its main benefit is reimagining the writing process—instead of switching between a word processor and AI chat, all AI capabilities live inside your document where you're already working.\n\nA typical use case is a startup team drafting an investor update. Using Type.ai, one team member writes the narrative while AI helps polish the language, another adds data tables with AI-generated summaries, and the whole team reviews and comments in real-time with AI suggesting improvements—all in one seamless document experience. Pricing includes a free trial, with paid plans for teams.",
+  "category": "Content Writing",
+  "subcategory": "Document Editor",
+  "url": "https://type.ai",
+  "pricing": {
+    "model": "paid",
+    "startingPrice": "$12/mo"
+  },
+  "features": [
+    "AI-powered autocomplete",
+    "AI Rewrite and restructuring",
+    "Document Chat Q&A",
+    "Real-time team collaboration",
+    "Clean distraction-free editor",
+    "Version history",
+    "Export to multiple formats",
+    "Custom AI style settings"
+  ],
+  "pros": [
+    "Beautiful, modern interface",
+    "Natural AI writing integration",
+    "Excellent collaboration features",
+    "Affordable pricing"
+  ],
+  "cons": [
+    "Limited template library",
+    "Fewer formatting options than Word",
+    "AI quality varies by document type",
+    "Newer platform, less established"
+  ],
+  "rating": 4.3,
+  "lastUpdated": "2026-04-25",
+  "tags": [
+    "ai-writing",
+    "document-editor",
+    "team-collaboration",
+    "writing-assistant",
+    "productivity"
+  ],
+  "seoTitle": "Type.ai: AI-Powered Document Editor for Teams in 2026 | Review",
+  "seoDescription": "Discover how Type.ai reimagines document writing with built-in AI. Perfect for teams creating reports, briefs, and proposals. Try it free today!"
+}

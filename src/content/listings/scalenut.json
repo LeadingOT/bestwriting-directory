@@ -1,0 +1,46 @@
+{
+  "name": "Scalenut",
+  "slug": "scalenut",
+  "tagline": "AI-powered content intelligence and SEO platform",
+  "description": "Scalenut is an all-in-one AI-powered content intelligence platform that combines deep SEO research, AI writing, and content optimization into a seamless workflow. It helps content teams plan, create, and optimize content that ranks by analyzing search intent, competitor strategies, and topic coverage gaps.\n\nKey features include the Cruise Mode, which generates complete long-form articles with AI-driven SEO intelligence—from keyword research through to the final optimized draft. Its Content Optimizer analyzes your draft against top-ranking competitors, providing a content score and actionable suggestions for improvement. The Topic Cluster tool helps you build comprehensive content strategies by identifying related subtopics and keywords that strengthen your topical authority.\n\nScalenut is built for content marketers, SEO agencies, and growing businesses that need to scale their content production without sacrificing quality or search performance. Its standout benefit is consolidating the entire content lifecycle into one platform—replacing the need for separate keyword research, writing, and optimization tools.\n\nA practical use case is an SEO agency managing content for multiple clients. Using Scalenut's Cruise Mode, they can generate a strategy brief, competitive analysis, and complete article draft for each client topic in one workflow, dramatically reducing the time from keyword research to publish-ready content. Pricing starts at $39/month for individuals and scales to $149/month for teams.",
+  "category": "SEO Writing",
+  "subcategory": "Content Intelligence",
+  "url": "https://scalenut.com",
+  "pricing": {
+    "model": "paid",
+    "startingPrice": "$39/mo"
+  },
+  "features": [
+    "Cruise Mode AI writing",
+    "Content Optimizer scoring",
+    "Topic Cluster builder",
+    "SERP analysis",
+    "Competitive research",
+    "AI content briefs",
+    "Keyword planner",
+    "Real-time SEO scoring"
+  ],
+  "pros": [
+    "Comprehensive all-in-one platform",
+    "Excellent content scoring system",
+    "Powerful topic research tools",
+    "Good value for agencies"
+  ],
+  "cons": [
+    "Pricier entry point",
+    "Steeper learning curve",
+    "AI output needs editing",
+    "Less known than competitors"
+  ],
+  "rating": 4.4,
+  "lastUpdated": "2026-04-25",
+  "tags": [
+    "seo-writing",
+    "content-strategy",
+    "content-intelligence",
+    "ai-writing",
+    "content-marketing"
+  ],
+  "seoTitle": "Scalenut: AI Content Intelligence Platform for 2026 | In-Depth Review",
+  "seoDescription": "Explore how Scalenut combines AI writing with deep SEO intelligence. Create content that ranks with powerful topic research and optimization tools."
+}

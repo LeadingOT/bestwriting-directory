@@ -1,0 +1,46 @@
+{
+  "name": "NeuralText",
+  "slug": "neuraltext",
+  "tagline": "Data-driven AI content platform for SEO teams",
+  "description": "NeuralText is an AI-powered content platform that combines advanced keyword research, content briefs, and AI writing into a data-driven workflow for SEO content teams. Built by SEO practitioners, it focuses on helping content marketers create comprehensive, search-optimized content using competitive data analysis.\n\nKey features include its Content Brief generator, which analyzes top-ranking pages for your target keyword and produces a detailed brief including recommended word count, keywords to include, questions to answer, and competitor insights. The AI Writer then generates full articles following your brief, with keyword usage tracking built in. Its Keyword Discovery tool surfaces high-value keyword opportunities by analyzing SERP features, search intent, and competitive difficulty. The platform also offers a Cluster AI feature that generates topic cluster strategies for building topical authority.\n\nNeuralText is ideal for SEO content teams, agencies, and bloggers who take a data-first approach to content creation. Its main benefit is bridging the gap between SEO research and content production—eliminating the need to jump between keyword tools, brief creation software, and AI writers.\n\nA typical use case is an SEO agency developing a content plan for a client in a competitive niche like financial services. Using NeuralText, they can discover underserved keyword opportunities, generate data-backed content briefs showing exactly what competitors cover, and produce AI-assisted drafts that hit all the right keywords and topics—all while tracking keyword density and content scoring. Plans start at $49/month with a free trial available.",
+  "category": "SEO Writing",
+  "subcategory": "Data-Driven Content",
+  "url": "https://neuraltext.com",
+  "pricing": {
+    "model": "paid",
+    "startingPrice": "$49/mo"
+  },
+  "features": [
+    "AI content briefs",
+    "Keyword discovery tool",
+    "AI article writer",
+    "Competitor content analysis",
+    "Keyword density tracking",
+    "Content scoring",
+    "Topic cluster generation",
+    "Google Docs integration"
+  ],
+  "pros": [
+    "Excellent data-driven briefs",
+    "Strong keyword research tools",
+    "SEO-first approach",
+    "Good for agency workflows"
+  ],
+  "cons": [
+    "Higher starting price point",
+    "AI writing not as polished as Jasper",
+    "Limited to SEO content use case",
+    "Learning curve for full feature set"
+  ],
+  "rating": 4.3,
+  "lastUpdated": "2026-04-25",
+  "tags": [
+    "seo-writing",
+    "content-strategy",
+    "keyword-research",
+    "data-driven",
+    "content-marketing"
+  ],
+  "seoTitle": "NeuralText: Data-Driven SEO Content Platform for 2026 | Review",
+  "seoDescription": "Discover how NeuralText combines keyword research with AI writing for SEO-optimized content. Create data-backed content briefs and articles today!"
+}

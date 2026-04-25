@@ -1,0 +1,46 @@
+{
+  "name": "INK For All",
+  "slug": "ink-for-all",
+  "tagline": "AI writing with real-time SEO scoring",
+  "description": "INK For All is an AI writing editor that combines content creation with real-time SEO optimization. Unlike most AI writing tools that separate writing from SEO, INK integrates a live SEO scoring system directly into the editing interface, guiding you to write content that's both engaging and search-engine friendly from the first sentence.\n\nKey features include its patented AI co-writing assistant that has been trained by top marketing experts to automatically select the right writing approach for your content. The real-time SEO Score evaluates your content as you type—checking keyword usage, readability, structure, and competitor benchmarks—with the goal of reaching a score above 90%. Its AI Keyword Research tool generates keyword clusters and transforms them into research-backed content plans in seconds, eliminating hours of manual keyword work.\n\nINK is perfect for content marketers, small business owners, and bloggers who want to write SEO-optimized content without juggling multiple tools. Its main benefit is eliminating the back-and-forth between writing and optimization—everything happens in one editor with real-time guidance.\n\nA typical use case is a small business owner writing their own blog content. Instead of writing a post in Google Docs and then running it through separate SEO tools, INK provides keyword suggestions, readability improvements, and an SEO score all within the same editor, making professional-grade optimization accessible without specialized training. Pricing starts at $49/month for the Professional plan.",
+  "category": "SEO Writing",
+  "subcategory": "AI Editor",
+  "url": "https://inkforall.com",
+  "pricing": {
+    "model": "paid",
+    "startingPrice": "$49/mo"
+  },
+  "features": [
+    "Real-time SEO scoring",
+    "AI co-writing assistant",
+    "Keyword cluster generator",
+    "Readability analysis",
+    "Competitor benchmarking",
+    "Content planner",
+    "Grammar and style checking",
+    "Image optimization"
+  ],
+  "pros": [
+    "Unique real-time SEO integration",
+    "User-friendly interface",
+    "All-in-one writing and SEO",
+    "Good for beginners"
+  ],
+  "cons": [
+    "Higher starting price",
+    "No free plan available",
+    "Limited team features",
+    "Smaller template library"
+  ],
+  "rating": 4.3,
+  "lastUpdated": "2026-04-25",
+  "tags": [
+    "seo-writing",
+    "content-optimization",
+    "keyword-research",
+    "blog-writing",
+    "ai-writing"
+  ],
+  "seoTitle": "INK For All: Real-Time SEO Writing Tool for 2026 | Our Review",
+  "seoDescription": "Learn how INK For All combines AI writing with real-time SEO scoring. Optimize your content as you write—no more separate tools needed!"
+}
