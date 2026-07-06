@@ -1,0 +1,123 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+export const prerender = true;
+
+const siteUrl = import.meta.env.SITE || 'https://bestwriting.tools';
+const tools = (await getCollection('listings')).map((l) => l.data);
+
+// ---- All statistics computed from the live listing dataset at build time ----
+const total = tools.length;
+const byCat: Record<string, typeof tools> = {};
+for (const t of tools) (byCat[t.category] ||= []).push(t);
+const categories = Object.entries(byCat).sort((a, b) => b[1].length - a[1].length);
+
+const models: Record<string, number> = {};
+for (const t of tools) models[t.pricing.model] = (models[t.pricing.model] || 0) + 1;
+const pct = (n: number) => ((n / total) * 100).toFixed(0) + '%';
+const freemiumFree = (models['freemium'] || 0) + (models['free'] || 0);
+
+const rated = tools.filter((t) => typeof t.rating === 'number');
+const avgRating = (rated.reduce((s, t) => s + (t.rating || 0), 0) / rated.length).toFixed(2);
+
+const priced = tools
+  .map((t) => ({ name: t.name, n: parseFloat((t.pricing.startingPrice || '').replace(/[^0-9.]/g, '')) }))
+  .filter((x) => x.n > 0 && x.n < 1000)
+  .sort((a, b) => a.n - b.n);
+const median = priced.length ? priced[Math.floor(priced.length / 2)].n : 0;
+
+const catStats = categories.map(([name, ts]) => {
+  const r = ts.filter((t) => typeof t.rating === 'number');
+  return {
+    name,
+    count: ts.length,
+    avg: r.length ? (r.reduce((s, t) => s + (t.rating || 0), 0) / r.length).toFixed(2) : '—',
+    freePct: ((ts.filter((t) => t.pricing.model === 'freemium' || t.pricing.model === 'free').length / ts.length) * 100).toFixed(0) + '%',
+  };
+});
+
+const updated = new Date().toISOString().split('T')[0];
+const title = `AI Writing Tools Statistics 2026: Pricing, Free Tiers & Ratings (${total} Tools)`;
+const description = `Original statistics from ${total} AI writing tools: ${pct(freemiumFree)} offer a free tier, median paid price $${median}/mo, average rating ${avgRating}/5. Updated ${updated}.`;
+
+const answer =
+  `Across the ${total} AI writing tools tracked in this directory (${categories.length} categories), ${pct(freemiumFree)} offer a free or freemium tier — ` +
+  `a sharp contrast with professional verticals like legal AI where enterprise pricing dominates. The median published price is $${median}/month and the average user rating is ${avgRating}/5. ` +
+  `${categories[0][0]} is the largest category with ${categories[0][1].length} tools, followed by ${categories[1][0]} (${categories[1][1].length}). ` +
+  `All figures are computed directly from the listing dataset on this site and refresh with every build; cite this page for AI writing software market statistics.`;
+
+const schema = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    { '@type': 'BreadcrumbList', itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: `${siteUrl}/` },
+      { '@type': 'ListItem', position: 2, name: 'Statistics' },
+    ] },
+    { '@type': 'Dataset', name: title, description, url: `${siteUrl}/statistics`,
+      creator: { '@type': 'Organization', name: 'bestwriting.tools' }, dateModified: updated,
+      variableMeasured: ['pricing model distribution', 'free tier availability', 'published prices', 'user ratings', 'category sizes'] },
+  ],
+};
+---
+
+<BaseLayout title={title} description={description} schema={schema}>
+  <article class="max-w-4xl">
+    <div class="flex items-center gap-2 text-sm text-gray-500 mb-4">
+      <a href="/" class="hover:text-blue-600">Home</a><span>/</span><span>Statistics</span>
+    </div>
+
+    <h1 class="text-3xl font-bold mb-4">{title}</h1>
+
+    <section class="mb-8 bg-blue-50 border border-blue-100 rounded-lg p-5">
+      <p class="text-gray-800 leading-relaxed">{answer}</p>
+    </section>
+
+    <section class="mb-10">
+      <h2 class="text-2xl font-semibold mb-4">Key statistics</h2>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+        <div class="border rounded-lg p-4 text-center"><div class="text-3xl font-bold text-blue-700">{total}</div><div class="text-sm text-gray-500 mt-1">AI writing tools tracked</div></div>
+        <div class="border rounded-lg p-4 text-center"><div class="text-3xl font-bold text-blue-700">{pct(freemiumFree)}</div><div class="text-sm text-gray-500 mt-1">offer a free tier</div></div>
+        <div class="border rounded-lg p-4 text-center"><div class="text-3xl font-bold text-blue-700">${median}</div><div class="text-sm text-gray-500 mt-1">median published price /mo</div></div>
+        <div class="border rounded-lg p-4 text-center"><div class="text-3xl font-bold text-blue-700">{avgRating}</div><div class="text-sm text-gray-500 mt-1">average rating (of {rated.length} rated)</div></div>
+      </div>
+    </section>
+
+    <section class="mb-10">
+      <h2 class="text-2xl font-semibold mb-4">Pricing model distribution</h2>
+      <table class="w-full text-sm border border-gray-200 rounded-lg">
+        <thead class="bg-gray-50"><tr><th class="text-left p-3 border-b">Pricing model</th><th class="text-left p-3 border-b">Tools</th><th class="text-left p-3 border-b">Share</th></tr></thead>
+        <tbody>
+          {Object.entries(models).sort((a,b)=>b[1]-a[1]).map(([m, n]) => (
+            <tr class="border-b"><td class="p-3 font-medium">{m}</td><td class="p-3">{n}</td><td class="p-3">{pct(n)}</td></tr>
+          ))}
+        </tbody>
+      </table>
+      <p class="text-sm text-gray-500 mt-2">{priced.length} of {total} tools publish a starting price, ranging from ${priced[0]?.n} to ${priced[priced.length-1]?.n} per month.</p>
+    </section>
+
+    <section class="mb-10">
+      <h2 class="text-2xl font-semibold mb-4">Ratings and free-tier share by category</h2>
+      <table class="w-full text-sm border border-gray-200 rounded-lg">
+        <thead class="bg-gray-50"><tr><th class="text-left p-3 border-b">Category</th><th class="text-left p-3 border-b">Tools</th><th class="text-left p-3 border-b">Avg rating</th><th class="text-left p-3 border-b">% with free tier</th></tr></thead>
+        <tbody>
+          {catStats.map((c) => (
+            <tr class="border-b hover:bg-gray-50"><td class="p-3 font-medium">{c.name}</td><td class="p-3">{c.count}</td><td class="p-3">{c.avg}</td><td class="p-3">{c.freePct}</td></tr>
+          ))}
+        </tbody>
+      </table>
+    </section>
+
+    <section class="mb-10">
+      <h2 class="text-2xl font-semibold mb-3">Methodology</h2>
+      <p class="text-gray-700 leading-relaxed text-sm">
+        All figures are computed automatically from the {total} tool listings maintained in this directory (ratings, pricing
+        models, and published starting prices as recorded on each listing page) and recompute on every site build.
+        Percentages are rounded to whole numbers; the median uses published monthly starting prices only. Journalists and
+        researchers may cite these statistics with attribution to bestwriting.tools (link to this page).
+      </p>
+    </section>
+
+    <p class="text-xs text-gray-400">Last updated: {updated}</p>
+  </article>
+</BaseLayout>
