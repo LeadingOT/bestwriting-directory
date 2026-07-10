@@ -284,4 +284,4 @@ The best AI writing tool isn't the one with the most features or the highest rev
 
 ---
 
-**Ready to explore your options?** Browse our [complete AI writing tool comparison](/blog/ai-writing-tools-comparison) or check out our [directory of tools](/categories) organized by category, pricing, and use case.
+**Ready to explore your options?** Browse our [complete AI writing tool comparison](/comparison) or check out our [directory of tools](/categories) organized by category, pricing, and use case.
