@@ -7,8 +7,7 @@
   "subcategory": "AI Editor",
   "url": "https://inkforall.com",
   "pricing": {
-    "model": "paid",
-    "startingPrice": "$49/mo"
+    "model": "paid"
   },
   "features": [
     "Real-time SEO scoring",
@@ -42,5 +41,9 @@
     "ai-writing"
   ],
   "seoTitle": "INK For All: Real-Time SEO Writing Tool for 2026 | Our Review",
-  "seoDescription": "Learn how INK For All combines AI writing with real-time SEO scoring. Optimize your content as you write—no more separate tools needed!"
+  "seoDescription": "Learn how INK For All combines AI writing with real-time SEO scoring. Optimize your content as you write—no more separate tools needed!",
+  "linkDead": true,
+  "verifiedAt": "2026-07-10",
+  "verifyMethod": "web-verify-2026-07 (official site check + published pricing)",
+  "verifyEvidence": "https://inkforall.com"
 }

@@ -8,7 +8,7 @@
   "url": "https://wordtune.com",
   "pricing": {
     "model": "freemium",
-    "startingPrice": "$9.99/mo"
+    "startingPrice": "$6.99/mo"
   },
   "features": [
     "Real-time rewriting",
@@ -41,5 +41,8 @@
     "free-tier"
   ],
   "seoTitle": "Wordtune: Transform Your Writing in 2026! | Is It the Best AI Tool?",
-  "seoDescription": "Unlock your writing potential with Wordtune’s AI. Discover how it can enhance your content today!"
+  "seoDescription": "Unlock your writing potential with Wordtune’s AI. Discover how it can enhance your content today!",
+  "verifiedAt": "2026-07-10",
+  "verifyMethod": "web-verify-2026-07 (official site check + published pricing)",
+  "verifyEvidence": "https://www.wordtune.com/plans"
 }

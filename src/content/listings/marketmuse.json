@@ -7,8 +7,7 @@
   "subcategory": "Content Strategy",
   "url": "https://marketmuse.com",
   "pricing": {
-    "model": "freemium",
-    "startingPrice": "$149/mo"
+    "model": "freemium"
   },
   "features": [
     "Content inventory analysis",
@@ -42,5 +41,8 @@
     "competitive-analysis"
   ],
   "seoTitle": "MarketMuse: AI-Driven Content Mastery in 2026",
-  "seoDescription": "Unlock your content’s potential with MarketMuse! Discover strategic insights for smarter SEO. Try it now!"
+  "seoDescription": "Unlock your content’s potential with MarketMuse! Discover strategic insights for smarter SEO. Try it now!",
+  "verifiedAt": "2026-07-10",
+  "verifyMethod": "web-verify-2026-07 (official site check + published pricing)",
+  "verifyEvidence": "https://www.marketmuse.com/pricing/"
 }

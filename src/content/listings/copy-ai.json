@@ -7,8 +7,8 @@
   "subcategory": "Marketing Copy",
   "url": "https://copy.ai",
   "pricing": {
-    "model": "freemium",
-    "startingPrice": "$49/mo"
+    "model": "paid",
+    "startingPrice": "$29/mo"
   },
   "features": [
     "90+ copywriting tools",
@@ -41,5 +41,8 @@
     "free-tier"
   ],
   "seoTitle": "Copy.ai: Unlock Effortless Copywriting in 2026!",
-  "seoDescription": "Discover how Copy.ai can transform your marketing game! Try it now for smart, engaging copy that converts. Don't miss out!"
+  "seoDescription": "Discover how Copy.ai can transform your marketing game! Try it now for smart, engaging copy that converts. Don't miss out!",
+  "verifiedAt": "2026-07-10",
+  "verifyMethod": "web-verify-2026-07 (official site check + published pricing)",
+  "verifyEvidence": "https://www.copy.ai/prices"
 }

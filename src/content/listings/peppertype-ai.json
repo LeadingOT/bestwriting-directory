@@ -7,8 +7,7 @@
   "subcategory": "Content Marketing",
   "url": "https://peppertype.ai",
   "pricing": {
-    "model": "paid",
-    "startingPrice": "$35/mo"
+    "model": "paid"
   },
   "features": [
     "50+ content templates",
@@ -42,5 +41,9 @@
     "blogging"
   ],
   "seoTitle": "Peppertype.ai: Your Ultimate AI Content Partner in 2026",
-  "seoDescription": "Discover how Peppertype.ai can supercharge your content creation. Boost engagement today with AI-driven tools! Explore now!"
+  "seoDescription": "Discover how Peppertype.ai can supercharge your content creation. Boost engagement today with AI-driven tools! Explore now!",
+  "linkDead": true,
+  "verifiedAt": "2026-07-10",
+  "verifyMethod": "web-verify-2026-07 (official site check + published pricing)",
+  "verifyEvidence": "https://www.pepper.inc/peppertype-ai"
 }

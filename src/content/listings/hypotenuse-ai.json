@@ -7,8 +7,7 @@
   "subcategory": "Product Descriptions",
   "url": "https://hypotenuse.ai",
   "pricing": {
-    "model": "paid",
-    "startingPrice": "$29/mo"
+    "model": "paid"
   },
   "features": [
     "Bulk product description generation",
@@ -42,5 +41,8 @@
     "ai-writing"
   ],
   "seoTitle": "Hypotenuse AI: E-Commerce Content Writer for 2026 | Full Review",
-  "seoDescription": "Discover how Hypotenuse AI creates SEO-optimized product descriptions at scale. Perfect for e-commerce stores and brands. Try it today!"
+  "seoDescription": "Discover how Hypotenuse AI creates SEO-optimized product descriptions at scale. Perfect for e-commerce stores and brands. Try it today!",
+  "verifiedAt": "2026-07-10",
+  "verifyMethod": "web-verify-2026-07 (official site check + published pricing)",
+  "verifyEvidence": "https://www.hypotenuse.ai/pricing"
 }

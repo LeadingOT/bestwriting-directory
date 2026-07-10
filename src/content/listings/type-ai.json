@@ -7,8 +7,8 @@
   "subcategory": "Document Editor",
   "url": "https://type.ai",
   "pricing": {
-    "model": "paid",
-    "startingPrice": "$12/mo"
+    "model": "freemium",
+    "startingPrice": "$8/mo"
   },
   "features": [
     "AI-powered autocomplete",
@@ -42,5 +42,8 @@
     "productivity"
   ],
   "seoTitle": "Type.ai: AI-Powered Document Editor for Teams in 2026 | Review",
-  "seoDescription": "Discover how Type.ai reimagines document writing with built-in AI. Perfect for teams creating reports, briefs, and proposals. Try it free today!"
+  "seoDescription": "Discover how Type.ai reimagines document writing with built-in AI. Perfect for teams creating reports, briefs, and proposals. Try it free today!",
+  "verifiedAt": "2026-07-10",
+  "verifyMethod": "web-verify-2026-07 (official site check + published pricing)",
+  "verifyEvidence": "https://type.ai/pricing"
 }

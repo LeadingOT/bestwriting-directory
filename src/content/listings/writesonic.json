@@ -7,8 +7,8 @@
   "subcategory": "Content Marketing",
   "url": "https://writesonic.com",
   "pricing": {
-    "model": "freemium",
-    "startingPrice": "$19/mo"
+    "model": "paid",
+    "startingPrice": "$79/mo"
   },
   "features": [
     "AI article writer 6.0",
@@ -41,5 +41,8 @@
     "free-tier"
   ],
   "seoTitle": "Writesonic: Unleash Creativity & Boost SEO in 2026!",
-  "seoDescription": "Discover how Writesonic can transform your content strategy. Try it now and elevate your writing game like never before!"
+  "seoDescription": "Discover how Writesonic can transform your content strategy. Try it now and elevate your writing game like never before!",
+  "verifiedAt": "2026-07-10",
+  "verifyMethod": "web-verify-2026-07 (official site check + published pricing)",
+  "verifyEvidence": "https://writesonic.com/pricing"
 }

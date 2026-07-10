@@ -8,7 +8,7 @@
   "url": "https://contentbot.ai",
   "pricing": {
     "model": "paid",
-    "startingPrice": "$19/mo"
+    "startingPrice": "$9/mo"
   },
   "features": [
     "Blog post automation",
@@ -42,5 +42,8 @@
     "affordable"
   ],
   "seoTitle": "ContentBot: Transform Your Writing in 2026 | Must-Try Tools",
-  "seoDescription": "Unlock the power of AI with ContentBot! Discover how this tool can elevate your content creation. Start your free trial today!"
+  "seoDescription": "Unlock the power of AI with ContentBot! Discover how this tool can elevate your content creation. Start your free trial today!",
+  "verifiedAt": "2026-07-10",
+  "verifyMethod": "web-verify-2026-07 (official site check + published pricing)",
+  "verifyEvidence": "https://contentbot.ai/#pricing"
 }

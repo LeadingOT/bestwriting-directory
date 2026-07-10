@@ -8,7 +8,7 @@
   "url": "https://jasper.ai",
   "pricing": {
     "model": "paid",
-    "startingPrice": "$49/mo"
+    "startingPrice": "$59/mo"
   },
   "features": [
     "50+ AI templates",
@@ -41,5 +41,8 @@
     "blog-writing"
   ],
   "seoTitle": "Jasper AI: Unlocking Marketing Magic in 2026",
-  "seoDescription": "Discover how Jasper AI can supercharge your marketing strategy. Try it now for enhanced creativity!"
+  "seoDescription": "Discover how Jasper AI can supercharge your marketing strategy. Try it now for enhanced creativity!",
+  "verifiedAt": "2026-07-10",
+  "verifyMethod": "web-verify-2026-07 (official site check + published pricing)",
+  "verifyEvidence": "https://www.jasper.ai/pricing"
 }

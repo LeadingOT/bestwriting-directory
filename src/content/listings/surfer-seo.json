@@ -8,7 +8,7 @@
   "url": "https://surferseo.com",
   "pricing": {
     "model": "paid",
-    "startingPrice": "$89/mo"
+    "startingPrice": "$49/mo"
   },
   "features": [
     "Content editor with real-time scoring",
@@ -42,5 +42,8 @@
     "premium"
   ],
   "seoTitle": "Surfer SEO: Unleashing Content Power in 2026 | Our Verdict",
-  "seoDescription": "Discover how Surfer SEO elevates your content strategy. Is it the best choice for 2026? Find out now!"
+  "seoDescription": "Discover how Surfer SEO elevates your content strategy. Is it the best choice for 2026? Find out now!",
+  "verifiedAt": "2026-07-10",
+  "verifyMethod": "web-verify-2026-07 (official site check + published pricing)",
+  "verifyEvidence": "https://surferseo.com/pricing/"
 }

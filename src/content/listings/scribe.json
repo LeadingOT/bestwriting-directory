@@ -5,10 +5,10 @@
   "description": "Scribe automatically creates step-by-step guides with screenshots as you perform any process. Perfect for creating SOPs, training materials, and technical documentation. Scribe captures your clicks and turns them into visual instructions instantly.",
   "category": "Technical Writing",
   "subcategory": "Documentation",
-  "url": "https://scribehow.com",
+  "url": "https://scribe.com",
   "pricing": {
     "model": "freemium",
-    "startingPrice": "$23/mo"
+    "startingPrice": "$25/mo"
   },
   "features": [
     "Auto-capture workflows",
@@ -43,5 +43,8 @@
     "free-tier"
   ],
   "seoTitle": "Scribe: Your Ultimate Guide Maker in 2026 | Get Started Today!",
-  "seoDescription": "Transform your ideas into clear, actionable guides. Discover how Scribe can streamline your process—try it now!"
+  "seoDescription": "Transform your ideas into clear, actionable guides. Discover how Scribe can streamline your process—try it now!",
+  "verifiedAt": "2026-07-10",
+  "verifyMethod": "web-verify-2026-07 (official site check + published pricing)",
+  "verifyEvidence": "https://scribe.com/pricing"
 }

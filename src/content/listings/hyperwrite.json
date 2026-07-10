@@ -5,7 +5,7 @@
   "description": "HyperWrite is a personal AI writing assistant designed to help you draft text, reply to messages, and generate content more efficiently. It operates directly within your browser, working on virtually any website or application you use, from email clients and document editors to social media platforms and project management tools.\n\nIts core functionality includes AutoWrite, which generates full paragraphs or entire documents from a simple prompt, and TypeAhead, which predicts and completes your sentences in real-time as you type. Another key feature is the Email Responder, which can draft context-aware replies to incoming messages in your inbox. This deep integration means you don't have to switch between windows to get AI help.\n\nHyperWrite is ideal for professionals, students, and anyone who writes regularly as part of their work. This includes marketers drafting copy, customer support agents handling inquiries, students writing essays, or managers communicating with their teams. The main benefit is a significant reduction in time spent on first drafts and routine writing tasks, allowing you to focus on refining ideas and strategy.\n\nFor example, a content creator could use the AutoWrite feature to quickly generate a detailed blog post outline from a one-sentence topic idea, then use TypeAhead to speed up the writing process within their preferred CMS. The freemium model allows you to test its core capabilities before upgrading for higher usage limits and advanced features.",
   "category": "Content Writing",
   "subcategory": "General Writing",
-  "url": "https://hyperwrite.ai",
+  "url": "https://www.hyperwriteai.com",
   "pricing": {
     "model": "freemium",
     "startingPrice": "$19.99/mo"
@@ -42,5 +42,8 @@
     "productivity"
   ],
   "seoTitle": "HyperWrite 2026: Your AI Writing Revolution Awaits!",
-  "seoDescription": "Unlock your creativity with HyperWrite—a powerful AI writing assistant. Try it today and elevate your writing game!"
+  "seoDescription": "Unlock your creativity with HyperWrite—a powerful AI writing assistant. Try it today and elevate your writing game!",
+  "verifiedAt": "2026-07-10",
+  "verifyMethod": "web-verify-2026-07 (official site check + published pricing)",
+  "verifyEvidence": "https://www.hyperwriteai.com/pricing"
 }

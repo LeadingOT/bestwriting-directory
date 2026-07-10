@@ -7,7 +7,7 @@
   "subcategory": "Content Ideas",
   "url": "https://nichesss.com",
   "pricing": {
-    "model": "freemium",
+    "model": "paid",
     "startingPrice": "$19/mo"
   },
   "features": [
@@ -42,5 +42,8 @@
     "marketing"
   ],
   "seoTitle": "Nichesss 2026: Your Secret Weapon for AI Content Creation",
-  "seoDescription": "Discover how Nichesss transforms content for marketers. Try it now and boost your writing game!"
+  "seoDescription": "Discover how Nichesss transforms content for marketers. Try it now and boost your writing game!",
+  "verifiedAt": "2026-07-10",
+  "verifyMethod": "web-verify-2026-07 (official site check + published pricing)",
+  "verifyEvidence": "https://nichesss.com/pricing"
 }

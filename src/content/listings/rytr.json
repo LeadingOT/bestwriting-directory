@@ -8,7 +8,7 @@
   "url": "https://rytr.me",
   "pricing": {
     "model": "freemium",
-    "startingPrice": "$9/mo"
+    "startingPrice": "$7.50/mo"
   },
   "features": [
     "40+ use cases",
@@ -41,5 +41,8 @@
     "blogging"
   ],
   "seoTitle": "Rytr: Unleashing Your Writing Power in 2026!",
-  "seoDescription": "Discover how Rytr can elevate your writing game! Try it now for powerful, affordable AI assistance."
+  "seoDescription": "Discover how Rytr can elevate your writing game! Try it now for powerful, affordable AI assistance.",
+  "verifiedAt": "2026-07-10",
+  "verifyMethod": "web-verify-2026-07 (official site check + published pricing)",
+  "verifyEvidence": "https://rytr.me/pricing"
 }

@@ -8,7 +8,7 @@
   "url": "https://frase.io",
   "pricing": {
     "model": "paid",
-    "startingPrice": "$15/mo"
+    "startingPrice": "$39/mo"
   },
   "features": [
     "SERP analysis",
@@ -42,5 +42,8 @@
     "data-driven"
   ],
   "seoTitle": "Frase: The Ultimate AI Content Tool for 2026? Find Out!",
-  "seoDescription": "Discover how Frase transforms content creation in 2026. Boost SEO and save time—see why it's a must-have tool today!"
+  "seoDescription": "Discover how Frase transforms content creation in 2026. Boost SEO and save time—see why it's a must-have tool today!",
+  "verifiedAt": "2026-07-10",
+  "verifyMethod": "web-verify-2026-07 (official site check + published pricing)",
+  "verifyEvidence": "https://www.frase.io/pricing/"
 }

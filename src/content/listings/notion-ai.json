@@ -8,7 +8,7 @@
   "url": "https://notion.so/product/ai",
   "pricing": {
     "model": "paid",
-    "startingPrice": "$10/mo"
+    "startingPrice": "$20/mo"
   },
   "features": [
     "Write entire documents",
@@ -42,5 +42,8 @@
     "business-writing"
   ],
   "seoTitle": "Notion AI: Transform Your Writing in 2026 | Discover How",
-  "seoDescription": "Unlock seamless writing with Notion AI! Explore its features and see how it can elevate your productivity. Get started now!"
+  "seoDescription": "Unlock seamless writing with Notion AI! Explore its features and see how it can elevate your productivity. Get started now!",
+  "verifiedAt": "2026-07-10",
+  "verifyMethod": "web-verify-2026-07 (official site check + published pricing)",
+  "verifyEvidence": "https://www.notion.com/pricing"
 }

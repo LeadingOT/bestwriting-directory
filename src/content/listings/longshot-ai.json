@@ -7,8 +7,7 @@
   "subcategory": "Long-form Content",
   "url": "https://longshot.ai",
   "pricing": {
-    "model": "freemium",
-    "startingPrice": "$29/mo"
+    "model": "freemium"
   },
   "features": [
     "Fact-checking",
@@ -42,5 +41,9 @@
     "semantic-seo"
   ],
   "seoTitle": "LongShot AI: Unleashing Your Long-Form Writing Potential in 2026",
-  "seoDescription": "Transform your writing with LongShot AI! Discover how it enhances creativity and boosts productivity. Try it today!"
+  "seoDescription": "Transform your writing with LongShot AI! Discover how it enhances creativity and boosts productivity. Try it today!",
+  "linkDead": true,
+  "verifiedAt": "2026-07-10",
+  "verifyMethod": "web-verify-2026-07 (official site check + published pricing)",
+  "verifyEvidence": "https://www.longshot.ai"
 }

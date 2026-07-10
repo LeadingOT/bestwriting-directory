@@ -8,7 +8,7 @@
   "url": "https://sudowrite.com",
   "pricing": {
     "model": "paid",
-    "startingPrice": "$19/mo"
+    "startingPrice": "$10/mo"
   },
   "features": [
     "Describe (vivid descriptions)",
@@ -42,5 +42,8 @@
     "storytelling"
   ],
   "seoTitle": "Transform Your Writing with Sudowrite: Our 2026 Verdict",
-  "seoDescription": "Unlock your creative potential with Sudowrite! Discover how this AI tool revolutionizes storytelling. Read on for insights."
+  "seoDescription": "Unlock your creative potential with Sudowrite! Discover how this AI tool revolutionizes storytelling. Read on for insights.",
+  "verifiedAt": "2026-07-10",
+  "verifyMethod": "web-verify-2026-07 (official site check + published pricing)",
+  "verifyEvidence": "https://sudowrite.com/pricing"
 }

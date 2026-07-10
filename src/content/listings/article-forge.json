@@ -32,7 +32,7 @@
     "Limited creative content uses",
     "Can produce generic-sounding articles"
   ],
-  "rating": 4.0,
+  "rating": 4,
   "lastUpdated": "2026-04-25",
   "tags": [
     "seo-writing",
@@ -42,5 +42,8 @@
     "content-generation"
   ],
   "seoTitle": "Article Forge: Automated AI Article Generator for 2026 | Full Review",
-  "seoDescription": "Discover how Article Forge researches and writes complete articles from just a keyword. Automate your content creation workflow. Try it free today!"
+  "seoDescription": "Discover how Article Forge researches and writes complete articles from just a keyword. Automate your content creation workflow. Try it free today!",
+  "verifiedAt": "2026-07-10",
+  "verifyMethod": "web-verify-2026-07 (official site check + published pricing)",
+  "verifyEvidence": "https://www.articleforge.com/pricing"
 }

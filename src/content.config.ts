@@ -11,6 +11,7 @@ const listings = defineCollection({
     category: z.string(),
     subcategory: z.string().optional(),
     url: z.string().url(),
+    linkDead: z.boolean().optional(),
     logo: z.string().optional(),
     pricing: z.object({
       model: z.enum(['free', 'freemium', 'paid', 'enterprise', 'open-source']),

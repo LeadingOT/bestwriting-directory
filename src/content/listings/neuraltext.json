@@ -8,7 +8,7 @@
   "url": "https://neuraltext.com",
   "pricing": {
     "model": "paid",
-    "startingPrice": "$49/mo"
+    "startingPrice": "$19/mo"
   },
   "features": [
     "AI content briefs",
@@ -42,5 +42,8 @@
     "content-marketing"
   ],
   "seoTitle": "NeuralText: Data-Driven SEO Content Platform for 2026 | Review",
-  "seoDescription": "Discover how NeuralText combines keyword research with AI writing for SEO-optimized content. Create data-backed content briefs and articles today!"
+  "seoDescription": "Discover how NeuralText combines keyword research with AI writing for SEO-optimized content. Create data-backed content briefs and articles today!",
+  "verifiedAt": "2026-07-10",
+  "verifyMethod": "web-verify-2026-07 (official site check + published pricing)",
+  "verifyEvidence": "https://neuraltext.com"
 }

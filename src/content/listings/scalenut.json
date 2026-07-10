@@ -8,7 +8,7 @@
   "url": "https://scalenut.com",
   "pricing": {
     "model": "paid",
-    "startingPrice": "$39/mo"
+    "startingPrice": "$24/mo"
   },
   "features": [
     "Cruise Mode AI writing",
@@ -42,5 +42,8 @@
     "content-marketing"
   ],
   "seoTitle": "Scalenut: AI Content Intelligence Platform for 2026 | In-Depth Review",
-  "seoDescription": "Explore how Scalenut combines AI writing with deep SEO intelligence. Create content that ranks with powerful topic research and optimization tools."
+  "seoDescription": "Explore how Scalenut combines AI writing with deep SEO intelligence. Create content that ranks with powerful topic research and optimization tools.",
+  "verifiedAt": "2026-07-10",
+  "verifyMethod": "web-verify-2026-07 (official site check + published pricing)",
+  "verifyEvidence": "https://www.scalenut.com/pricing"
 }
